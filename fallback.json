@@ -1,0 +1,11 @@
+{
+  "message": "I’m sorry, I don’t want to guess about your health or give you the wrong Netcare information. I can help with appointments, MyNetcare Online, hospital pre-admission, Netcare 911, finding services, billing contacts, FAQs and other Netcare website navigation. Tell me what you are trying to do and I’ll guide you step by step.",
+  "quick_replies": [
+    {"label": "Book an appointment", "value": "I want to book an appointment"},
+    {"label": "MyNetcare Online", "value": "What is MyNetcare Online?"},
+    {"label": "Pre-admission", "value": "How do I do pre-admission?"},
+    {"label": "Emergency help", "value": "I need emergency help"},
+    {"label": "Contact Netcare", "value": "How do I contact Netcare?"},
+    {"label": "FAQs", "value": "Show me the FAQs"}
+  ]
+}

@@ -1,0 +1,1249 @@
+{
+  "default": "en",
+  "translation_status": "First-draft translations for Afrikaans, isiZulu and Sesotho. Review by native speakers is required before production use.",
+  "link_labels": {
+    "en": {
+      "appointmed": "Netcare appointmed",
+      "pre_admission": "Hospital pre-admission",
+      "mynetcare": "MyNetcare Online",
+      "emergency": "Netcare 911",
+      "emergency_trauma": "Emergency and trauma care",
+      "akeso": "Find an Akeso facility",
+      "akeso_selfassess": "Self-assessment tools",
+      "mother_baby": "Mother and baby clinics",
+      "gap_cover": "NetcarePlus gap cover",
+      "netcareplus_faq": "NetcarePlus FAQs",
+      "specialists": "Find a specialist",
+      "find_gp": "Find a GP",
+      "find_dentist": "Find a dentist",
+      "medicross": "Netcare Medicross",
+      "hospitals": "Netcare hospital directory",
+      "contact": "Netcare Contact Us",
+      "hospital_search": "Netcare hospital and facility search"
+    },
+    "af": {
+      "appointmed": "Netcare appointmed",
+      "pre_admission": "Hospitaal vooropname",
+      "mynetcare": "MyNetcare Online",
+      "emergency": "Netcare 911",
+      "emergency_trauma": "Nood- en traumasorg",
+      "akeso": "Vind 'n Akeso fasiliteit",
+      "akeso_selfassess": "Selfassesseringshulpmiddels",
+      "mother_baby": "Moeder-en-baba klinieke",
+      "gap_cover": "NetcarePlus gapingsdekking",
+      "netcareplus_faq": "NetcarePlus Vrae",
+      "specialists": "Vind 'n spesialis",
+      "find_gp": "Vind 'n huisdokter",
+      "find_dentist": "Vind 'n tandarts",
+      "medicross": "Netcare Medicross",
+      "hospitals": "Netcare hospitaalgids",
+      "contact": "Netcare Kontak Ons",
+      "hospital_search": "Netcare hospitaal- en fasiliteitsoektog"
+    },
+    "zu": {
+      "appointmed": "Netcare appointmed",
+      "pre_admission": "Ukubhalisa ngaphambili",
+      "mynetcare": "MyNetcare Online",
+      "emergency": "Netcare 911",
+      "emergency_trauma": "Ukunakekelwa okuphuthumayo",
+      "akeso": "Thola isikhungo se-Akeso",
+      "akeso_selfassess": "Amathuluzi okuzihlola",
+      "mother_baby": "Imitholampilo yomama nosana",
+      "gap_cover": "NetcarePlus gap cover",
+      "netcareplus_faq": "Imibuzo yeNetcarePlus",
+      "specialists": "Thola uchwepheshe",
+      "find_gp": "Thola udokotela wendawo",
+      "find_dentist": "Thola udokotela wamazinyo",
+      "medicross": "Netcare Medicross",
+      "hospitals": "Uhlu lwezibhedlela zeNetcare",
+      "contact": "Xhumana neNetcare",
+      "hospital_search": "Sesha izibhedlela nezikhungo zeNetcare"
+    },
+    "st": {
+      "appointmed": "Netcare appointmed",
+      "pre_admission": "Ngolo ya pele",
+      "mynetcare": "MyNetcare Online",
+      "emergency": "Netcare 911",
+      "emergency_trauma": "Tlhokomelo ya tshohanyetso",
+      "akeso": "Fumana setsi sa Akeso",
+      "akeso_selfassess": "Disebediswa tsa ho ithekola",
+      "mother_baby": "Ditleliniki tsa bomme le masea",
+      "gap_cover": "NetcarePlus gap cover",
+      "netcareplus_faq": "Dipotso tsa NetcarePlus",
+      "specialists": "Fumana setsebi",
+      "find_gp": "Fumana ngaka ya lelapa",
+      "find_dentist": "Fumana ngaka ya meno",
+      "medicross": "Netcare Medicross",
+      "hospitals": "Lenane la dipetlele tsa Netcare",
+      "contact": "Ikopanye le Netcare",
+      "hospital_search": "Batla dipetlele le ditsi tsa Netcare"
+    }
+  },
+  "languages": {
+    "en": {
+      "label": "English",
+      "html_lang": "en-ZA",
+      "stt": "en-ZA",
+      "tts_prefix": "en",
+      "wake_words": [
+        "hello netcare",
+        "hi netcare",
+        "help",
+        "hello",
+        "hi"
+      ],
+      "stop_words": [
+        "thank you",
+        "thanks"
+      ],
+      "ui": {
+        "title": "How can we help you?",
+        "eyebrow": "Patient support",
+        "notice_title": "Netcare Help Assistant",
+        "notice_body": "I can help you find hospitals and specialists, and navigate appointments, pre-admission and emergency information. I do not diagnose medical conditions.",
+        "menu": "Menu",
+        "restart": "Restart",
+        "send": "Send",
+        "language": "Language",
+        "input_label": "Ask a question",
+        "placeholder": "Ask in your own words… e.g. Netcare hospitals in Gauteng",
+        "typing": "Netcare assistant is typing…",
+        "read_aloud": "Read answers aloud",
+        "text_size": "Text size",
+        "sizes": [
+          "normal",
+          "large",
+          "extra large"
+        ],
+        "to_dark": "Switch to dark",
+        "to_light": "Switch to light",
+        "near_me": "Hospitals near me",
+        "stop_speaking": "Stop reading aloud",
+        "call": "Call",
+        "directions": "Directions",
+        "emergency_lead": "Medical emergency? Netcare 911 answers 24 hours.",
+        "emergency_btn": "Call 082 911",
+        "locating": "Finding your location…",
+        "loc_denied": "Location access was refused. Tell me your town or province instead.",
+        "loc_fail": "I could not get your location. Tell me your town or province instead.",
+        "voice_ready": "Voice mode is ready. Say “Hi Netcare”, then ask your question. You do not need to press Send.",
+        "voice_listening": "I am listening. Speak naturally. Say “Thank you” when you want me to stop.",
+        "voice_wake": "Voice mode is listening for “Hi Netcare”, “Hello Netcare”, “Hi”, or “Help”.",
+        "voice_speaking": "Netcare is speaking. I will listen again when the answer is finished.",
+        "voice_unsupported": "Automatic voice listening is not supported by this browser. You can still type your question.",
+        "no_voice_for_lang": "Your device has no voice for this language, so answers are read in English.",
+        "welcome": "Hello. I am the Netcare Help Assistant. Say “Hi Netcare” once to start a voice conversation, or just type. I can find hospitals near you, list them by province, and explain how bookings and admissions work.",
+        "quick_replies": [
+          {
+            "label": "Hospitals in Gauteng",
+            "value": "Netcare hospitals in Gauteng"
+          },
+          {
+            "label": "Hospitals near me",
+            "value": "hospitals near me"
+          },
+          {
+            "label": "Book appointment",
+            "value": "How do I book an appointment?"
+          },
+          {
+            "label": "Pre-admission",
+            "value": "What must I bring for an admission?"
+          },
+          {
+            "label": "Find a specialist",
+            "value": "Find a cardiologist in Cape Town"
+          }
+        ]
+      },
+      "phrases": {
+        "near_head": "The {n} Netcare facilities closest to you",
+        "near_speak": "Here are the {n} Netcare facilities closest to you.",
+        "away": "about {km} km away",
+        "away_speech": "about {km} kilometres away",
+        "province_head": "{n} Netcare facilities in {where}",
+        "province_speak": "There are {n} Netcare facilities in {where}.",
+        "and_more": "There are {n} more. Say “read the rest” to hear them.",
+        "stale": "Addresses and numbers change. Netcare's live directory is the final word.",
+        "no_location": "I need your location for that. Select “Hospitals near me”, or tell me your town or province.",
+        "no_match": "I could not match that to verified Netcare information, and I do not want to guess. Try naming a province, a hospital, or a specialty."
+      },
+      "topics": {
+        "booking": {
+          "title": "Requesting an appointment",
+          "message": "Appointments cannot be confirmed in this chat. Netcare appointmed does the booking for you at no charge, with specialists, GPs and dentists at Netcare hospitals, Medicross centres and Akeso facilities.\n\nHave this ready:\n• The patient's full name and ID number, or passport\n• Medical aid scheme, plan and membership number, or say you are paying privately\n• What you need: the specialty, or the reason for the visit\n• Where you want to be seen: town, suburb or hospital\n• Preferred dates and times\n• A referral letter from your GP, if you have one\n\nAppointmed matches you to a practitioner contracted to your scheme where possible, then phones you back to confirm.",
+          "speech": "Netcare cannot be booked from this chat, but Netcare appointmed will book it for you, free of charge. Call 0 8 6 0, 5 5 5, 5 6 5, or fill in the online request form. Have ready the patient's name and I D number, the medical aid name and membership number, the type of specialist or reason for the visit, the area you want to be seen in, and your preferred dates and times. Appointmed phones you back to confirm.",
+          "links": [
+            "appointmed"
+          ]
+        },
+        "preadmission": {
+          "title": "Pre-admission and what to bring",
+          "message": "Pre-admission is the paperwork done before the day, so you do not queue. Submit it at least 48 hours ahead, online through MyNetcare Online or on a form from the hospital.\n\nBring on the day:\n• Your ID document or passport\n• Your medical aid card and the scheme's pre-authorisation number\n• Your doctor's admission letter or booking form\n• A list of every medicine you take, including chronic, herbal and traditional medicine\n• Previous X-rays, scans or results if your doctor asked for them\n\nBefore you come in:\n• Follow your doctor's fasting instructions exactly, or surgery may be delayed or cancelled\n• No alcohol the day before, and cut down or stop smoking if you are having a general anaesthetic\n• Ask your doctor whether to stop blood thinners or chronic medication",
+          "speech": "Complete your pre-admission at least 48 hours before you are admitted, either online through My Netcare Online or on a form from the hospital reception. On the day, bring your I D document, your medical aid card, the authorisation number from your scheme, your doctor's admission letter, and a list of your current medicines. Your doctor will give you the fasting rules.",
+          "links": [
+            "pre_admission",
+            "mynetcare"
+          ]
+        },
+        "emergency": {
+          "title": "Emergency and trauma",
+          "message": "Call Netcare 911 on 082 911 now. They answer 24 hours a day, dispatch ambulances and helicopters, and direct you to the nearest emergency department.\n\nYou do not need a booking, a referral or medical aid to be seen in an emergency department. Patients are triaged by how urgent their condition is, not by arrival order.",
+          "speech": "If this is an emergency, call Netcare 9 1 1 on 0 8 2, 9 1 1, right now. They answer 24 hours a day and will send an ambulance and direct you to the nearest emergency department. Do not wait for this chat.",
+          "links": [
+            "emergency",
+            "emergency_trauma"
+          ]
+        },
+        "mental": {
+          "title": "Mental health, Netcare Akeso",
+          "message": "Netcare Akeso provides inpatient and outpatient mental health care across South Africa, including crisis admission, and there are free self-assessment tools on the Netcare site.\n\nIf you or someone with you is in immediate danger, call 082 911.",
+          "speech": "Netcare Akeso runs mental health facilities across the country. You can search for a facility near you, or use the free online self assessment tools. If you are in crisis, call Netcare 9 1 1 on 0 8 2, 9 1 1.",
+          "links": [
+            "akeso",
+            "akeso_selfassess"
+          ]
+        },
+        "maternity": {
+          "title": "Maternity and baby care",
+          "message": "Maternity services include antenatal care and classes, high-risk maternal and foetal care, labour and delivery, neonatal ICU, postnatal support and the Ncelisa human milk banks.\n\nIf your waters break or contractions start near your due date, go straight to the maternity ward of the hospital where you are booked. If it is early, or there is bleeding or high blood pressure, phone your obstetrician and go to the emergency department.",
+          "speech": "Netcare hospitals offer antenatal classes, maternity wards, neonatal intensive care, mother and baby clinics, and the Ncelisa human milk banks. You can search for a mother and baby clinic near you, and appointmed can book you with an obstetrician.",
+          "links": [
+            "mother_baby",
+            "appointmed"
+          ]
+        },
+        "gap": {
+          "title": "NetcarePlus gap cover",
+          "message": "NetcarePlus gap cover helps with the shortfall between what your medical scheme pays and what specialists actually charge for in-hospital treatment. Cover levels, waiting periods and pricing are on the product page.\n\nI cannot advise on which cover suits you. That is a financial decision and NetcarePlus has consultants for it.",
+          "speech": "NetcarePlus offers gap cover that helps with the shortfall between what your medical aid pays and what specialists charge. Details and pricing are on the NetcarePlus page.",
+          "links": [
+            "gap_cover",
+            "netcareplus_faq"
+          ]
+        },
+        "specialist": {
+          "title": "Finding a specialist",
+          "message": "Netcare's specialist directory filters by discipline and by area, and shows each doctor's practice, hospital and contact number. Appointmed will then book the appointment for you free of charge on 0860 555 565.",
+          "speech": "Search Netcare's specialist directory by discipline and area. Appointmed can then book the appointment for you on 0 8 6 0, 5 5 5, 5 6 5.",
+          "links": [
+            "specialists",
+            "appointmed"
+          ]
+        },
+        "gp": {
+          "title": "Finding a GP",
+          "message": "GPs practise from Netcare Medicross medical and dental centres. The directory filters by suburb and shows each centre's hours and phone number. Many centres take walk-ins, but booking ahead is quicker.",
+          "speech": "G Ps practise from Netcare Medicross centres. Search the directory by suburb for the centre, its hours and its number.",
+          "links": [
+            "find_gp",
+            "medicross"
+          ]
+        },
+        "dentist": {
+          "title": "Finding a dentist",
+          "message": "Dentists practise from Netcare Medicross medical and dental centres. The directory filters by suburb and shows each centre's hours and phone number.",
+          "speech": "Dentists practise from Netcare Medicross centres. Search the directory by suburb for the centre, its hours and its number.",
+          "links": [
+            "find_dentist",
+            "medicross"
+          ]
+        }
+      },
+      "keywords": {
+        "emergency": [
+          "emergency",
+          "ambulance",
+          "accident",
+          "trauma",
+          "casualty",
+          "urgent",
+          "heart attack",
+          "stroke",
+          "bleeding",
+          "unconscious",
+          "overdose",
+          "cant breathe",
+          "can t breathe"
+        ],
+        "nearest": [
+          "near me",
+          "nearest",
+          "closest",
+          "near by",
+          "nearby"
+        ],
+        "specialist": [
+          "specialist",
+          "cardiolog",
+          "orthopaed",
+          "orthoped",
+          "oncolog",
+          "neurolog",
+          "gynaec",
+          "gynec",
+          "obstetric",
+          "paediatr",
+          "pediatr",
+          "dermatolog",
+          "urolog",
+          "surgeon",
+          "physician",
+          "psychiatr",
+          "radiolog",
+          "gastro",
+          "nephrolog",
+          "ophthalm",
+          "neurosurgeon",
+          "gynae",
+          "gynaecologist",
+          "gynecologist",
+          "obstetrician",
+          "obgyn",
+          "heart doctor",
+          "skin doctor",
+          "child doctor",
+          "cancer doctor",
+          "eye doctor",
+          "lung doctor",
+          "kidney doctor",
+          "general surgeon",
+          "specialist surgeon"
+        ],
+        "gp": [
+          "gp",
+          "general practitioner",
+          "family doctor",
+          "doctor near"
+        ],
+        "dentist": [
+          "dentist",
+          "dental",
+          "teeth"
+        ],
+        "booking": [
+          "book",
+          "appointment",
+          "appointmed",
+          "consult",
+          "see a doctor"
+        ],
+        "preadmission": [
+          "pre-admission",
+          "pre admission",
+          "preadmission",
+          "admission",
+          "admitted",
+          "what to bring",
+          "what do i need",
+          "documents",
+          "paperwork",
+          "fasting",
+          "surgery prep",
+          "must i bring",
+          "should i bring"
+        ],
+        "mental": [
+          "mental",
+          "depress",
+          "anxiety",
+          "akeso",
+          "psychiatr",
+          "suicid",
+          "addiction"
+        ],
+        "maternity": [
+          "maternity",
+          "pregnan",
+          "baby",
+          "birth",
+          "antenatal",
+          "neonatal",
+          "labour",
+          "midwif"
+        ],
+        "gap": [
+          "gap cover",
+          "netcareplus",
+          "netcare plus",
+          "shortfall",
+          "co-payment"
+        ],
+        "facility": [
+          "hospital",
+          "hospitals",
+          "clinic",
+          "facility",
+          "facilities",
+          "medicross",
+          "centre",
+          "center",
+          "list",
+          "where"
+        ],
+        "medicross": [
+          "medicross"
+        ],
+        "hospital_only": [
+          "hospital",
+          "hospitals"
+        ],
+        "rest": [
+          "read the rest",
+          "the rest",
+          "more",
+          "continue",
+          "carry on"
+        ]
+      }
+    },
+    "af": {
+      "label": "Afrikaans",
+      "html_lang": "af-ZA",
+      "stt": "af-ZA",
+      "tts_prefix": "af",
+      "wake_words": [
+        "hallo netcare",
+        "haai netcare",
+        "hulp",
+        "hallo",
+        "haai"
+      ],
+      "stop_words": [
+        "dankie",
+        "baie dankie"
+      ],
+      "ui": {
+        "title": "Hoe kan ons help?",
+        "eyebrow": "Pasiëntondersteuning",
+        "notice_title": "Netcare Hulpassistent",
+        "notice_body": "Ek help jou om hospitale en spesialiste te vind, en om afsprake, vooropname en noodinligting te verstaan. Ek diagnoseer nie mediese toestande nie.",
+        "menu": "Kieslys",
+        "restart": "Begin oor",
+        "send": "Stuur",
+        "language": "Taal",
+        "input_label": "Vra 'n vraag",
+        "placeholder": "Vra in jou eie woorde… bv. Netcare hospitale in Gauteng",
+        "typing": "Netcare assistent tik…",
+        "read_aloud": "Lees antwoorde hardop",
+        "text_size": "Tekstgrootte",
+        "sizes": [
+          "normaal",
+          "groot",
+          "ekstra groot"
+        ],
+        "to_dark": "Skakel na donker",
+        "to_light": "Skakel na lig",
+        "near_me": "Hospitale naby my",
+        "stop_speaking": "Hou op voorlees",
+        "call": "Bel",
+        "directions": "Aanwysings",
+        "emergency_lead": "Mediese noodgeval? Netcare 911 antwoord 24 uur per dag.",
+        "emergency_btn": "Bel 082 911",
+        "locating": "Ek soek jou ligging…",
+        "loc_denied": "Toegang tot ligging is geweier. Sê vir my jou dorp of provinsie.",
+        "loc_fail": "Ek kon nie jou ligging kry nie. Sê vir my jou dorp of provinsie.",
+        "voice_ready": "Stemmodus is gereed. Sê “Hallo Netcare” en vra dan jou vraag. Jy hoef nie Stuur te druk nie.",
+        "voice_listening": "Ek luister. Praat natuurlik. Sê “Dankie” wanneer ek moet ophou.",
+        "voice_wake": "Stemmodus luister vir “Hallo Netcare”, “Haai Netcare”, “Haai”, of “Hulp”.",
+        "voice_speaking": "Netcare praat. Ek luister weer sodra die antwoord klaar is.",
+        "voice_unsupported": "Outomatiese stemherkenning word nie deur hierdie blaaier ondersteun nie. Jy kan steeds tik.",
+        "no_voice_for_lang": "Jou toestel het nie 'n stem vir hierdie taal nie, so antwoorde word in Engels gelees.",
+        "welcome": "Hallo. Ek is die Netcare Hulpassistent. Sê “Hallo Netcare” een keer om 'n stemgesprek te begin, of tik net. Ek kan hospitale naby jou vind, hulle per provinsie lys, en verduidelik hoe besprekings en opnames werk.",
+        "quick_replies": [
+          {
+            "label": "Hospitale in Gauteng",
+            "value": "Netcare hospitale in Gauteng"
+          },
+          {
+            "label": "Hospitale naby my",
+            "value": "hospitale naby my"
+          },
+          {
+            "label": "Maak afspraak",
+            "value": "Hoe maak ek 'n afspraak?"
+          },
+          {
+            "label": "Vooropname",
+            "value": "Wat moet ek saambring vir opname?"
+          },
+          {
+            "label": "Vind spesialis",
+            "value": "Vind 'n kardioloog in Kaapstad"
+          }
+        ]
+      },
+      "phrases": {
+        "near_head": "Die {n} Netcare fasiliteite die naaste aan jou",
+        "near_speak": "Hier is die {n} Netcare fasiliteite naaste aan jou.",
+        "away": "ongeveer {km} km weg",
+        "away_speech": "ongeveer {km} kilometer weg",
+        "province_head": "{n} Netcare fasiliteite in {where}",
+        "province_speak": "Daar is {n} Netcare fasiliteite in {where}.",
+        "and_more": "Daar is nog {n}. Sê “lees die res” om hulle te hoor.",
+        "stale": "Adresse en nommers verander. Netcare se lewendige gids is die finale woord.",
+        "no_location": "Ek het jou ligging daarvoor nodig. Kies “Hospitale naby my”, of sê vir my jou dorp of provinsie.",
+        "no_match": "Ek kon dit nie aan geverifieerde Netcare inligting koppel nie, en ek wil nie raai nie. Noem 'n provinsie, 'n hospitaal of 'n spesialiteit."
+      },
+      "topics": {
+        "booking": {
+          "title": "Om 'n afspraak te vra",
+          "message": "Afsprake kan nie in hierdie gesprek bevestig word nie. Netcare appointmed doen die bespreking gratis, met spesialiste, huisdokters en tandartse by Netcare hospitale, Medicross sentrums en Akeso fasiliteite.\n\nHou dit gereed:\n• Die pasiënt se volle naam en ID nommer, of paspoort\n• Mediese fonds, plan en lidmaatskapnommer, of sê jy betaal self\n• Wat jy nodig het: die spesialiteit, of die rede vir die besoek\n• Waar jy gesien wil word: dorp, voorstad of hospitaal\n• Voorkeurdatums en -tye\n• 'n Verwysingsbrief van jou huisdokter, as jy een het\n\nAppointmed pas jou waar moontlik by 'n praktisyn wat by jou fonds gekontrakteer is, en bel jou dan terug.",
+          "speech": "Ek kan nie hier bespreek nie, maar Netcare appointmed doen dit gratis vir jou. Bel 0 8 6 0, 5 5 5, 5 6 5, of vul die aanlyn vorm in. Hou gereed die pasiënt se naam en I D nommer, die mediese fonds se naam en lidmaatskapnommer, watter spesialis of hoekom jy gaan, die area, en jou voorkeurdatums. Appointmed bel jou terug om te bevestig.",
+          "links": [
+            "appointmed"
+          ]
+        },
+        "preadmission": {
+          "title": "Vooropname en wat om saam te bring",
+          "message": "Vooropname is die papierwerk wat voor die dag gedoen word, sodat jy nie tou staan nie. Dien dit ten minste 48 uur vooruit in, aanlyn deur MyNetcare Online of op 'n vorm by die hospitaal.\n\nBring saam op die dag:\n• Jou ID dokument of paspoort\n• Jou mediese fonds kaart en die fonds se magtigingsnommer\n• Jou dokter se opnamebrief of besprekingsvorm\n• 'n Lys van elke medisyne wat jy gebruik, ook chroniese, kruie- en tradisionele medisyne\n• Vorige X-strale, skanderings of uitslae as jou dokter dit gevra het\n\nVoor die tyd:\n• Volg jou dokter se vasinstruksies presies, anders word die operasie uitgestel of gekanselleer\n• Geen alkohol die dag voor nie, en verminder of los rook as jy algemene narkose kry\n• Vra jou dokter of jy bloedverdunners of chroniese medisyne moet staak",
+          "speech": "Doen jou vooropname ten minste 48 uur voor jy opgeneem word, aanlyn deur My Netcare Online of op 'n vorm by die hospitaal. Bring op die dag jou I D dokument, jou mediese fonds kaart, die magtigingsnommer van jou fonds, jou dokter se opnamebrief, en 'n lys van al jou medisyne. Jou dokter gee die vasreëls.",
+          "links": [
+            "pre_admission",
+            "mynetcare"
+          ]
+        },
+        "emergency": {
+          "title": "Nood en trauma",
+          "message": "Bel Netcare 911 nou op 082 911. Hulle antwoord 24 uur per dag, stuur ambulanse en helikopters, en wys jou na die naaste noodeenheid.\n\nJy het nie 'n bespreking, verwysing of mediese fonds nodig om by 'n noodeenheid gesien te word nie. Pasiënte word volgens dringendheid gesien, nie volgens aankoms nie.",
+          "speech": "As dit 'n noodgeval is, bel Netcare 9 1 1 nou op 0 8 2, 9 1 1. Hulle antwoord 24 uur per dag, stuur 'n ambulans en wys jou na die naaste noodeenheid. Moenie vir hierdie gesprek wag nie.",
+          "links": [
+            "emergency",
+            "emergency_trauma"
+          ]
+        },
+        "mental": {
+          "title": "Geestesgesondheid, Netcare Akeso",
+          "message": "Netcare Akeso bied binne- en buitepasiënt geestesgesondheidsorg regoor Suid-Afrika, insluitend krisisopname, en daar is gratis selfassesseringshulpmiddels op die Netcare webwerf.\n\nAs jy of iemand by jou in onmiddellike gevaar is, bel 082 911.",
+          "speech": "Netcare Akeso het geestesgesondheidsfasiliteite regoor die land. Jy kan 'n fasiliteit naby jou soek, of die gratis aanlyn selfassessering gebruik. As dit 'n krisis is, bel Netcare 9 1 1 op 0 8 2, 9 1 1.",
+          "links": [
+            "akeso",
+            "akeso_selfassess"
+          ]
+        },
+        "maternity": {
+          "title": "Kraam- en babasorg",
+          "message": "Kraamdienste sluit in voorgeboortesorg en -klasse, hoërisiko moeder- en fetale sorg, kraam, neonatale ICU, nageboortesorg en die Ncelisa melkbanke.\n\nAs jou water breek of weë begin naby jou datum, gaan reguit na die kraamsaal van die hospitaal waar jy bespreek is. As dit vroeg is, of daar is bloeding of hoë bloeddruk, bel jou ginekoloog en gaan na die noodeenheid.",
+          "speech": "Netcare hospitale bied voorgeboorteklasse, kraamsale, neonatale intensiewe sorg, moeder-en-baba klinieke, en die Ncelisa melkbanke. Jy kan 'n moeder-en-baba kliniek naby jou soek, en appointmed kan jou by 'n ginekoloog bespreek.",
+          "links": [
+            "mother_baby",
+            "appointmed"
+          ]
+        },
+        "gap": {
+          "title": "NetcarePlus gapingsdekking",
+          "message": "NetcarePlus gapingsdekking help met die verskil tussen wat jou mediese fonds betaal en wat spesialiste werklik vra vir behandeling in die hospitaal. Dekkingsvlakke, wagtydperke en pryse is op die produkblad.\n\nEk kan nie raad gee oor watter dekking jou pas nie. Dit is 'n finansiële besluit en NetcarePlus het konsultante daarvoor.",
+          "speech": "NetcarePlus bied gapingsdekking wat help met die verskil tussen wat jou mediese fonds betaal en wat spesialiste vra. Besonderhede en pryse is op die NetcarePlus bladsy.",
+          "links": [
+            "gap_cover",
+            "netcareplus_faq"
+          ]
+        },
+        "specialist": {
+          "title": "Vind 'n spesialis",
+          "message": "Netcare se spesialisgids filtreer volgens dissipline en area, en wys elke dokter se praktyk, hospitaal en nommer. Appointmed bespreek dan gratis vir jou op 0860 555 565.",
+          "speech": "Soek Netcare se spesialisgids volgens dissipline en area. Appointmed kan dan vir jou bespreek op 0 8 6 0, 5 5 5, 5 6 5.",
+          "links": [
+            "specialists",
+            "appointmed"
+          ]
+        },
+        "gp": {
+          "title": "Vind 'n huisdokter",
+          "message": "Huisdokters praktiseer by Netcare Medicross mediese en tandheelkundige sentrums. Die gids filtreer volgens voorstad en wys elke sentrum se ure en nommer. Baie sentrums neem inloop-pasiënte, maar 'n afspraak is vinniger.",
+          "speech": "Huisdokters praktiseer by Netcare Medicross sentrums. Soek die gids volgens voorstad vir die sentrum, ure en nommer.",
+          "links": [
+            "find_gp",
+            "medicross"
+          ]
+        },
+        "dentist": {
+          "title": "Vind 'n tandarts",
+          "message": "Tandartse praktiseer by Netcare Medicross mediese en tandheelkundige sentrums. Die gids filtreer volgens voorstad en wys elke sentrum se ure en nommer.",
+          "speech": "Tandartse praktiseer by Netcare Medicross sentrums. Soek die gids volgens voorstad vir die sentrum, ure en nommer.",
+          "links": [
+            "find_dentist",
+            "medicross"
+          ]
+        }
+      },
+      "keywords": {
+        "emergency": [
+          "noodgeval",
+          "ambulans",
+          "ongeluk",
+          "trauma",
+          "dringend",
+          "hartaanval",
+          "beroerte",
+          "bloei",
+          "bewusteloos"
+        ],
+        "nearest": [
+          "naby my",
+          "naaste",
+          "digste"
+        ],
+        "specialist": [
+          "spesialis",
+          "kardioloog",
+          "ortopeed",
+          "onkoloog",
+          "neuroloog",
+          "ginekoloog",
+          "chirurg",
+          "neurochirurg",
+          "vroue dokter",
+          "brein chirurg",
+          "dermatoloog",
+          "kinderarts"
+        ],
+        "gp": [
+          "huisdokter",
+          "algemene praktisyn",
+          "dokter naby"
+        ],
+        "dentist": [
+          "tandarts",
+          "tande"
+        ],
+        "booking": [
+          "bespreek",
+          "afspraak",
+          "afsprake",
+          "besoek dokter",
+          "bespreking",
+          "maak ek n afspraak",
+          "maak ek 'n afspraak"
+        ],
+        "preadmission": [
+          "vooropname",
+          "opname",
+          "opgeneem",
+          "wat bring",
+          "dokumente",
+          "papierwerk",
+          "vas",
+          "operasie",
+          "saambring",
+          "opgeneem word"
+        ],
+        "mental": [
+          "geestesgesondheid",
+          "depressie",
+          "angs",
+          "akeso",
+          "psigiater",
+          "verslawing"
+        ],
+        "maternity": [
+          "kraam",
+          "swanger",
+          "baba",
+          "geboorte",
+          "voorgeboorte"
+        ],
+        "gap": [
+          "gapingsdekking",
+          "netcareplus",
+          "tekort"
+        ],
+        "facility": [
+          "hospitaal",
+          "hospitale",
+          "kliniek",
+          "fasiliteit",
+          "fasiliteite",
+          "medicross",
+          "sentrum",
+          "waar",
+          "lys"
+        ],
+        "medicross": [
+          "medicross"
+        ],
+        "hospital_only": [
+          "hospitaal",
+          "hospitale"
+        ],
+        "rest": [
+          "lees die res",
+          "die res",
+          "meer",
+          "gaan voort"
+        ]
+      }
+    },
+    "zu": {
+      "label": "isiZulu",
+      "html_lang": "zu-ZA",
+      "stt": "zu-ZA",
+      "tts_prefix": "zu",
+      "wake_words": [
+        "sawubona netcare",
+        "sawubona",
+        "sanibonani",
+        "usizo",
+        "yebo netcare"
+      ],
+      "stop_words": [
+        "ngiyabonga",
+        "ngiyabonga kakhulu"
+      ],
+      "ui": {
+        "title": "Singakusiza kanjani?",
+        "eyebrow": "Ukusekelwa kwesiguli",
+        "notice_title": "Umsizi weNetcare",
+        "notice_body": "Ngingakusiza uthole izibhedlela nochwepheshe, futhi ngichaze ama-apoyintimenti, ukubhalisa ngaphambili nolwazi lwezimo eziphuthumayo. Angihloli izifo.",
+        "menu": "Imenyu",
+        "restart": "Qala kabusha",
+        "send": "Thumela",
+        "language": "Ulimi",
+        "input_label": "Buza umbuzo",
+        "placeholder": "Buza ngamagama akho… isb. izibhedlela zeNetcare eGauteng",
+        "typing": "Umsizi weNetcare uyabhala…",
+        "read_aloud": "Funda izimpendulo ngokuzwakalayo",
+        "text_size": "Usayizi wombhalo",
+        "sizes": [
+          "ovamile",
+          "omkhulu",
+          "omkhulu kakhulu"
+        ],
+        "to_dark": "Shintshela kokumnyama",
+        "to_light": "Shintshela kokukhanyayo",
+        "near_me": "Izibhedlela eduze kwami",
+        "stop_speaking": "Misa ukufunda",
+        "call": "Shayela",
+        "directions": "Izikhombisi-ndlela",
+        "emergency_lead": "Isimo esiphuthumayo? I-Netcare 911 iphendula amahora angu-24.",
+        "emergency_btn": "Shayela u-082 911",
+        "locating": "Ngithola indawo okuyo…",
+        "loc_denied": "Ukufinyelela endaweni kwaliwe. Ngitshele idolobha noma isifundazwe sakho.",
+        "loc_fail": "Angikwazanga ukuthola indawo okuyo. Ngitshele idolobha noma isifundazwe sakho.",
+        "voice_ready": "Imodi yezwi ilungile. Yithi “Sawubona Netcare”, bese ubuza umbuzo wakho. Awudingi ukucindezela u-Thumela.",
+        "voice_listening": "Ngiyalalela. Khuluma ngokwemvelo. Yithi “Ngiyabonga” uma ufuna ngime.",
+        "voice_wake": "Imodi yezwi ilalele u-“Sawubona Netcare”, “Sanibonani”, noma “Usizo”.",
+        "voice_speaking": "I-Netcare iyakhuluma. Ngizophinde ngilalele lapho impendulo isiphelile.",
+        "voice_unsupported": "Ukulalela ngezwi akusekelwa kulesi siphequluli. Usengathayipha umbuzo wakho.",
+        "no_voice_for_lang": "Idivayisi yakho ayinalo izwi lalolu limi, ngakho izimpendulo zifundwa ngesiNgisi.",
+        "welcome": "Sawubona. Ngingumsizi weNetcare. Yithi “Sawubona Netcare” kanye ukuze uqale ingxoxo yezwi, noma uthayiphe nje. Ngingathola izibhedlela eduze kwakho, ngizibale ngesifundazwe, futhi ngichaze ukuthi ukubhuka nokwamukelwa kusebenza kanjani.",
+        "quick_replies": [
+          {
+            "label": "Izibhedlela eGauteng",
+            "value": "izibhedlela zeNetcare eGauteng"
+          },
+          {
+            "label": "Eduze kwami",
+            "value": "izibhedlela eduze kwami"
+          },
+          {
+            "label": "Bhuka i-apoyintimenti",
+            "value": "Ngibhuka kanjani i-apoyintimenti?"
+          },
+          {
+            "label": "Ukwamukelwa",
+            "value": "Kufanele ngiphathe ini uma ngamukelwa?"
+          },
+          {
+            "label": "Thola uchwepheshe",
+            "value": "Thola udokotela wenhliziyo eKapa"
+          }
+        ]
+      },
+      "phrases": {
+        "near_head": "Izikhungo zeNetcare ezingu-{n} eziseduze nawe",
+        "near_speak": "Nazi izikhungo zeNetcare ezingu-{n} eziseduze nawe.",
+        "away": "cishe {km} km ukusuka lapha",
+        "away_speech": "cishe amakhilomitha angu-{km} ukusuka lapha",
+        "province_head": "Izikhungo zeNetcare ezingu-{n} e-{where}",
+        "province_speak": "Kunezikhungo zeNetcare ezingu-{n} e-{where}.",
+        "and_more": "Kukhona ezinye ezingu-{n}. Yithi “funda okusele” ukuze uzizwe.",
+        "stale": "Amakheli nezinombolo ziyashintsha. Uhlu lweNetcare oluphilayo yilo olunembile.",
+        "no_location": "Ngidinga indawo okuyo ngalokho. Khetha u-“Izibhedlela eduze kwami”, noma ungitshele idolobha noma isifundazwe sakho.",
+        "no_match": "Angikwazanga ukuqonda lokho, futhi angifuni ukuqagela. Zama ukusho isifundazwe, isibhedlela, noma uhlobo lodokotela."
+      },
+      "topics": {
+        "booking": {
+          "title": "Ukucela i-apoyintimenti",
+          "message": "Ama-apoyintimenti awakwazi ukuqinisekiswa kule ngxoxo. I-Netcare appointmed ikubhukela mahhala, kochwepheshe, odokotela bendawo nabamazinyo ezibhedlela zeNetcare, ezikhungweni zeMedicross nakuma-Akeso.\n\nKufanele ube nakho lokhu:\n• Igama eligcwele nenombolo kamazisi, noma ipasipoti\n• Umshwalense wezempilo, uhlelo nenombolo yobulungu, noma usho ukuthi uzizikhokhela\n• Odingayo: uhlobo lodokotela, noma isizathu sokuvakasha\n• Lapho ufuna ukubonwa khona: idolobha, indawo noma isibhedlela\n• Izinsuku nezikhathi ozikhethayo\n• Incwadi yokudluliselwa kudokotela, uma unayo\n\nI-appointmed ikufanisa nodokotela onenkontileka nomshwalense wakho lapho kungenzeka, bese ikushayela ukuqinisekisa.",
+          "speech": "Angikwazi ukubhuka lapha, kodwa i-Netcare appointmed izokubhukela mahhala. Shayela u-0 8 6 0, 5 5 5, 5 6 5, noma ugcwalise ifomu eliku-inthanethi. Kufanele ube nayo igama nenombolo kamazisi wesiguli, igama lomshwalense nenombolo yobulungu, uhlobo lodokotela, indawo, nezinsuku ozikhethayo.",
+          "links": [
+            "appointmed"
+          ]
+        },
+        "preadmission": {
+          "title": "Ukubhalisa ngaphambili nokumele ukuphathe",
+          "message": "Ukubhalisa ngaphambili wumsebenzi wamaphepha owenziwa ngaphambi kosuku, ukuze ungami emugqeni. Kuthumele okungenani amahora angu-48 ngaphambili, nge-MyNetcare Online noma ngefomu esibhedlela.\n\nPhatha ngosuku:\n• Umazisi wakho noma ipasipoti\n• Ikhadi lomshwalense wezempilo nenombolo yemvume\n• Incwadi kadokotela yokwamukelwa noma ifomu lokubhuka\n• Uhlu lwayo yonke imithi oyithathayo, kufaka eyesikhathi eside neyendabuko\n• Ama-X-ray, ama-scan noma imiphumela edlule uma udokotela eyicelile\n\nNgaphambi kokuza:\n• Landela imiyalelo kadokotela yokuzila ukudla ngqo, ngaphandle kwalokho ukuhlinzwa kuyahlehliswa\n• Ungaphuzi utshwala ngosuku olwandulelayo, uyeke ukubhema uma uzohlinzwa\n• Buza udokotela ukuthi kufanele uyeke yini imithi yegazi noma eyesikhathi eside",
+          "speech": "Gcwalisa ukubhalisa okwandulelayo okungenani amahora angu-48 ngaphambi kokwamukelwa. Ngosuku, phatha umazisi wakho, ikhadi lomshwalense wezempilo, inombolo yemvume, incwadi kadokotela, nohlu lwemithi oyisebenzisayo.",
+          "links": [
+            "pre_admission",
+            "mynetcare"
+          ]
+        },
+        "emergency": {
+          "title": "Isimo esiphuthumayo",
+          "message": "Shayela i-Netcare 911 ku-082 911 manje. Baphendula amahora angu-24, bathumela ama-ambulensi nezindiza, futhi bakuqondise emnyangweni wezimo eziphuthumayo oseduze.\n\nAwudingi ukubhuka, incwadi yokudluliselwa noma umshwalense wezempilo ukuze ubonwe emnyangweni wezimo eziphuthumayo. Iziguli zibonwa ngokubaluleka kwesimo sazo.",
+          "speech": "Uma kuyisimo esiphuthumayo, shayela i-Netcare 9 1 1 ku-0 8 2, 9 1 1 manje. Baphendula amahora angu-24, bathumela i-ambulensi futhi bakuqondise esibhedlela esiseduze. Ungalindi le ngxoxo.",
+          "links": [
+            "emergency",
+            "emergency_trauma"
+          ]
+        },
+        "mental": {
+          "title": "Impilo yengqondo, Netcare Akeso",
+          "message": "I-Netcare Akeso inikeza ukunakekelwa kwempilo yengqondo eNingizimu Afrika yonke, kufaka phakathi ukwamukelwa ngokuphuthuma, futhi kunamathuluzi okuzihlola amahhala kuwebhusayithi.\n\nUma wena noma umuntu onaye esengozini manje, shayela u-082 911.",
+          "speech": "I-Netcare Akeso inezikhungo zempilo yengqondo ezweni lonke. Ungasesha isikhungo eduze nawe, noma usebenzise amathuluzi okuzihlola amahhala. Uma usenkingeni, shayela i-Netcare 9 1 1 ku-0 8 2, 9 1 1.",
+          "links": [
+            "akeso",
+            "akeso_selfassess"
+          ]
+        },
+        "maternity": {
+          "title": "Ukunakekelwa kwabakhulelwe nezingane",
+          "message": "Izinsizakalo zokubeletha zifaka ukunakekelwa namakilasi angaphambi kokubeletha, ukunakekelwa kwabasengozini, ukubeletha, i-ICU yezingane ezisanda kuzalwa, ukusekelwa emva kokubeletha, namabhange obisi e-Ncelisa.\n\nUma amanzi ephuka noma imihelo iqala eduze kosuku lwakho, hamba ngqo ewodini lokubeletha esibhedlela obhuke kuso. Uma kusenesikhathi, noma kukhona ukopha, shayela udokotela wakho bese uya emnyangweni wezimo eziphuthumayo.",
+          "speech": "Izibhedlela zeNetcare zinamakilasi angaphambi kokubeletha, amawodi okubeletha, ukunakekelwa kwezingane ezisanda kuzalwa, imitholampilo yomama nezingane, namabhange obisi e-Ncelisa.",
+          "links": [
+            "mother_baby",
+            "appointmed"
+          ]
+        },
+        "gap": {
+          "title": "I-NetcarePlus gap cover",
+          "message": "I-NetcarePlus gap cover isiza ngomehluko phakathi kwalokho umshwalense wakho okukhokhayo nalokho ochwepheshe abakubiza ngempela ngokwelashwa esibhedlela. Amazinga, izikhathi zokulinda nentengo kusekhasini lomkhiqizo.\n\nAngikwazi ukukweluleka ngokuthi ikuphi okukufanele. Leso yisinqumo sezimali.",
+          "speech": "I-NetcarePlus inikeza i-gap cover esiza ngomehluko phakathi kwalokho umshwalense wakho okukhokhayo nalokho ochwepheshe abakubizayo. Imininingwane nentengo kukukhasi le-NetcarePlus.",
+          "links": [
+            "gap_cover",
+            "netcareplus_faq"
+          ]
+        },
+        "specialist": {
+          "title": "Ukuthola uchwepheshe",
+          "message": "Uhlu lochwepheshe lweNetcare luhlunga ngokohlobo nangendawo, futhi lubonisa umtholampilo kadokotela ngamunye, isibhedlela nenombolo. I-appointmed izokubhukela mahhala ku-0860 555 565.",
+          "speech": "Sesha uhlu lochwepheshe lweNetcare ngohlobo nangendawo. I-appointmed ingakubhukela ku-0 8 6 0, 5 5 5, 5 6 5.",
+          "links": [
+            "specialists",
+            "appointmed"
+          ]
+        },
+        "gp": {
+          "title": "Ukuthola udokotela wendawo",
+          "message": "Odokotela bendawo basebenza ezikhungweni zeMedicross. Uhlu luhlunga ngendawo futhi lubonisa amahora nezinombolo. Izikhungo eziningi zamukela abangenile, kodwa ukubhuka kusheshisa.",
+          "speech": "Odokotela bendawo basebenza ezikhungweni zeMedicross. Sesha uhlu ngendawo ukuze uthole isikhungo, amahora nenombolo.",
+          "links": [
+            "find_gp",
+            "medicross"
+          ]
+        },
+        "dentist": {
+          "title": "Ukuthola udokotela wamazinyo",
+          "message": "Odokotela bamazinyo basebenza ezikhungweni zeMedicross. Uhlu luhlunga ngendawo futhi lubonisa amahora nezinombolo.",
+          "speech": "Odokotela bamazinyo basebenza ezikhungweni zeMedicross. Sesha uhlu ngendawo ukuze uthole isikhungo, amahora nenombolo.",
+          "links": [
+            "find_dentist",
+            "medicross"
+          ]
+        }
+      },
+      "keywords": {
+        "emergency": [
+          "esiphuthumayo",
+          "isiphuthumayo",
+          "ambulensi",
+          "ingozi",
+          "isifo senhliziyo",
+          "ukopha",
+          "quleka",
+          "ukufa"
+        ],
+        "nearest": [
+          "eduze kwami",
+          "eseduze",
+          "eduze",
+          "esiseduze"
+        ],
+        "specialist": [
+          "uchwepheshe",
+          "ochwepheshe",
+          "udokotela wenhliziyo",
+          "ingcweti",
+          "udokotela oyingcweti",
+          "udokotela wabesifazane",
+          "udokotela wesikhumba"
+        ],
+        "gp": [
+          "udokotela wendawo",
+          "udokotela womndeni",
+          "udokotela oseduze"
+        ],
+        "dentist": [
+          "amazinyo",
+          "udokotela wamazinyo"
+        ],
+        "booking": [
+          "bhuka",
+          "ukubhuka",
+          "apoyintimenti",
+          "ukubona udokotela",
+          "ngibhuka",
+          "ukubhukela"
+        ],
+        "preadmission": [
+          "ukwamukelwa",
+          "ukubhalisa",
+          "ngiphathe ini",
+          "amaphepha",
+          "ukuzila",
+          "ukuhlinzwa",
+          "ngamukelwa",
+          "uma ngamukelwa"
+        ],
+        "mental": [
+          "impilo yengqondo",
+          "ukucindezeleka",
+          "ukukhathazeka",
+          "akeso"
+        ],
+        "maternity": [
+          "ukukhulelwa",
+          "ukubeletha",
+          "usana",
+          "ingane",
+          "umtholampilo womama"
+        ],
+        "gap": [
+          "gap cover",
+          "netcareplus",
+          "umehluko wenkokhelo"
+        ],
+        "facility": [
+          "isibhedlela",
+          "izibhedlela",
+          "umtholampilo",
+          "isikhungo",
+          "izikhungo",
+          "medicross",
+          "kuphi",
+          "uhlu"
+        ],
+        "medicross": [
+          "medicross"
+        ],
+        "hospital_only": [
+          "isibhedlela",
+          "izibhedlela"
+        ],
+        "rest": [
+          "funda okusele",
+          "okusele",
+          "okunye",
+          "qhubeka"
+        ]
+      }
+    },
+    "st": {
+      "label": "Sesotho",
+      "html_lang": "st-ZA",
+      "stt": "en-ZA",
+      "tts_prefix": "st",
+      "wake_words": [
+        "dumela netcare",
+        "dumela",
+        "lumela",
+        "thuso",
+        "dumelang"
+      ],
+      "stop_words": [
+        "kea leboha",
+        "ke a leboha",
+        "kea leboga"
+      ],
+      "ui": {
+        "title": "Re ka o thusa jwang?",
+        "eyebrow": "Tshehetso ya mokudi",
+        "notice_title": "Mothusi wa Netcare",
+        "notice_body": "Nka o thusa ho fumana dipetlele le ditsebi, mme ka hlalosa dikopano, ngolo ya pele le tlhahisoleseding ya tshohanyetso. Ha ke hlahlobe mafu.",
+        "menu": "Menu",
+        "restart": "Qala hape",
+        "send": "Romela",
+        "language": "Puo",
+        "input_label": "Botsa potso",
+        "placeholder": "Botsa ka mantswe a hao… mohl. dipetlele tsa Netcare Gauteng",
+        "typing": "Mothusi wa Netcare o ngola…",
+        "read_aloud": "Bala dikarabo ka lentswe",
+        "text_size": "Boholo ba mongolo",
+        "sizes": [
+          "bo tlwaelehileng",
+          "bo boholo",
+          "bo boholo haholo"
+        ],
+        "to_dark": "Fetolela ho lefifi",
+        "to_light": "Fetolela ho leseding",
+        "near_me": "Dipetlele tse haufi le nna",
+        "stop_speaking": "Emisa ho bala",
+        "call": "Letsetsa",
+        "directions": "Ditaelo tsa tsela",
+        "emergency_lead": "Tshohanyetso ya bophelo? Netcare 911 e araba dihora tse 24.",
+        "emergency_btn": "Letsetsa 082 911",
+        "locating": "Ke batla sebaka seo o leng ho sona…",
+        "loc_denied": "Phumantsho ya sebaka e hanne. Mpolelle toropo kapa profinse ya hao.",
+        "loc_fail": "Ha ke a kgona ho fumana sebaka sa hao. Mpolelle toropo kapa profinse ya hao.",
+        "voice_ready": "Mokgwa wa lentswe o loketse. Re “Dumela Netcare”, ebe o botsa potso ya hao. Ha o hloke ho tobetsa Romela.",
+        "voice_listening": "Ke a mamela. Bua ka tlwaelo. Re “Kea leboha” ha o batla ke emise.",
+        "voice_wake": "Mokgwa wa lentswe o mamela “Dumela Netcare”, “Dumela”, kapa “Thuso”.",
+        "voice_speaking": "Netcare e a bua. Ke tla mamela hape ha karabo e fela.",
+        "voice_unsupported": "Ho mamela ka lentswe ha ho tshehetswe ke sebatli sena. O ntse o ka ngola potso ya hao.",
+        "no_voice_for_lang": "Sesebediswa sa hao ha se na lentswe la puo ena, kahoo dikarabo di balwa ka Senyesemane.",
+        "welcome": "Dumela. Ke Mothusi wa Netcare. Re “Dumela Netcare” hang ho qala moqoqo wa lentswe, kapa o ngole feela. Nka fumana dipetlele tse haufi le wena, ka di thathamisa ka profinse, mme ka hlalosa hore ho beha letsatsi le ho amohelwa ho sebetsa jwang.",
+        "quick_replies": [
+          {
+            "label": "Dipetlele Gauteng",
+            "value": "dipetlele tsa Netcare Gauteng"
+          },
+          {
+            "label": "Tse haufi le nna",
+            "value": "dipetlele tse haufi le nna"
+          },
+          {
+            "label": "Beha letsatsi",
+            "value": "Nka beha letsatsi jwang?"
+          },
+          {
+            "label": "Ngolo ya pele",
+            "value": "Ke tshwanetse ho tla le eng ha ke amohelwa?"
+          },
+          {
+            "label": "Fumana setsebi",
+            "value": "Fumana ngaka ya pelo Cape Town"
+          }
+        ]
+      },
+      "phrases": {
+        "near_head": "Ditsi tsa Netcare tse {n} tse haufi le wena",
+        "near_speak": "Ditsi tsa Netcare tse {n} tse haufi le wena ke tsena.",
+        "away": "hoo e ka bang {km} km ho tloha mona",
+        "away_speech": "hoo e ka bang dikhilomithara tse {km} ho tloha mona",
+        "province_head": "Ditsi tsa Netcare tse {n} {where}",
+        "province_speak": "Ho na le ditsi tsa Netcare tse {n} {where}.",
+        "and_more": "Ho sa na le tse {n}. Re “bala tse setseng” ho di utlwa.",
+        "stale": "Diaterese le dinomoro dia fetoha. Lenane le phelang la Netcare ke lona le nepahetseng.",
+        "no_location": "Ke hloka sebaka sa hao bakeng sa seo. Kgetha “Dipetlele tse haufi le nna”, kapa o mpolelle toropo kapa profinse ya hao.",
+        "no_match": "Ha ke a utlwisisa seo, mme ha ke batle ho hakanya. Leka ho bolela profinse, sepetlele, kapa mofuta wa ngaka."
+      },
+      "topics": {
+        "booking": {
+          "title": "Ho kopa letsatsi la kopano",
+          "message": "Dikopano di ke ke tsa netefatswa moqoqong ona. Netcare appointmed e o behela letsatsi mahala, le ditsebi, dingaka tsa lelapa le tsa meno dipetleleng tsa Netcare, ditsing tsa Medicross le Akeso.\n\nEba le tsena:\n• Lebitso le felletseng le nomoro ya boitsebiso, kapa phasepoto\n• Medical aid, moralo le nomoro ya botho, kapa o bolele hore o itlhokomela\n• Seo o se hlokang: mofuta wa setsebi, kapa lebaka la ketelo\n• Moo o batlang ho bonwa teng: toropo, lebatowa kapa sepetlele\n• Matsatsi le dinako tseo o di ratang\n• Lengolo la tsamaiso ho tswa ho ngaka ya hao, ha o na le lona\n\nAppointmed e o fumanela ngaka e nang le konteraka le medical aid ya hao, ebe e o letsetsa ho netefatsa.",
+          "speech": "Nke ke ka beha letsatsi mona, empa Netcare appointmed e tla o behela mahala. Letsetsa 0 8 6 0, 5 5 5, 5 6 5, kapa o tlatse foromo inthaneteng. Eba le lebitso le nomoro ya boitsebiso ya mokudi, lebitso la medical aid le nomoro ya botho, mofuta wa setsebi, sebaka, le matsatsi ao o a ratang.",
+          "links": [
+            "appointmed"
+          ]
+        },
+        "preadmission": {
+          "title": "Ngolo ya pele le seo o tshwanetseng ho tla le sona",
+          "message": "Ngolo ya pele ke mesebetsi ya dipampiri e etswang pele ho letsatsi, e le hore o se ke wa ema moleng. E romele bonyane dihora tse 48 esale pele, ka MyNetcare Online kapa ka foromo sepetlele.\n\nTla le tsena ka letsatsi leo:\n• Boitsebiso ba hao kapa phasepoto\n• Karete ya medical aid le nomoro ya tumello\n• Lengolo la ngaka la ho amohelwa kapa foromo ya kopano\n• Lenane la meriana yohle eo o e nwang, ho kenyeletswa ya nako e telele le ya setso\n• Di-X-ray, di-scan kapa diphetho tsa pele haeba ngaka e di kopile\n\nPele o tla:\n• Latela ditaelo tsa ngaka tsa ho itima dijo ka ho hlaka, ho seng jwalo opereishene e ya diegiswa\n• Se nwe jwala letsatsi le fetileng, mme o tlohele ho tsuba haeba o tla robatswa\n• Botsa ngaka hore na o lokela ho emisa meriana ya madi kapa ya nako e telele",
+          "speech": "Tlatsa ngolo ya pele bonyane dihora tse 48 pele o amohelwa. Ka letsatsi leo, tla le boitsebiso ba hao, karete ya medical aid, nomoro ya tumello, lengolo la ngaka, le lenane la meriana eo o e nwang.",
+          "links": [
+            "pre_admission",
+            "mynetcare"
+          ]
+        },
+        "emergency": {
+          "title": "Tshohanyetso le trauma",
+          "message": "Letsetsa Netcare 911 ho 082 911 hona jwale. Ba araba dihora tse 24, ba romela diambulense le difofane, mme ba o supisa lefapheng la tshohanyetso le haufi.\n\nHa o hloke kopano, lengolo la tsamaiso kapa medical aid ho bonwa lefapheng la tshohanyetso. Bakudi ba bonwa ho ya ka bohlokwa ba boemo ba bona.",
+          "speech": "Haeba ena ke tshohanyetso, letsetsa Netcare 9 1 1 ho 0 8 2, 9 1 1 hona jwale. Ba araba dihora tse 24, ba romela ambulense mme ba o supisa sepetlele se haufi. O se ke wa emela moqoqo ona.",
+          "links": [
+            "emergency",
+            "emergency_trauma"
+          ]
+        },
+        "mental": {
+          "title": "Bophelo ba kelello, Netcare Akeso",
+          "message": "Netcare Akeso e fana ka tlhokomelo ya bophelo ba kelello Afrika Borwa hohle, ho kenyeletswa ho amohelwa ka tshohanyetso, mme ho na le disebediswa tsa ho ithekola mahala websaeteng.\n\nHaeba wena kapa motho eo o nang le yena a le kotsing hona jwale, letsetsa 082 911.",
+          "speech": "Netcare Akeso e na le ditsi tsa bophelo ba kelello naheng yohle. O ka batla setsi se haufi le wena, kapa wa sebedisa disebediswa tsa ho ithekola mahala. Haeba o tsietsing, letsetsa Netcare 9 1 1 ho 0 8 2, 9 1 1.",
+          "links": [
+            "akeso",
+            "akeso_selfassess"
+          ]
+        },
+        "maternity": {
+          "title": "Tlhokomelo ya bomme le masea",
+          "message": "Ditshebeletso tsa pelehi di kenyeletsa tlhokomelo le dithuto tsa pele ho pelehi, tlhokomelo ya bomme le masea a kotsing, pelehi, ICU ya masea, tshehetso kamora pelehi, le dibanka tsa lebese tsa Ncelisa.\n\nHaeba metsi a hao a phatloha kapa ditlhabi di qala haufi le letsatsi la hao, eya ka kotloloho wateng ya pelehi sepetleleng seo o behilweng ho sona. Haeba e sa le pele, kapa ho na le ho tswa madi, letsetsa ngaka ya hao mme o ye lefapheng la tshohanyetso.",
+          "speech": "Dipetlele tsa Netcare di na le dithuto tsa pele ho pelehi, diwate tsa pelehi, tlhokomelo e matla ya masea, ditleliniki tsa bomme le masea, le dibanka tsa lebese tsa Ncelisa.",
+          "links": [
+            "mother_baby",
+            "appointmed"
+          ]
+        },
+        "gap": {
+          "title": "NetcarePlus gap cover",
+          "message": "NetcarePlus gap cover e thusa ka phapang pakeng tsa seo medical aid ya hao e se lefang le seo ditsebi di se lefisang ha o le sepetlele. Maemo a tshireletso, dinako tsa ho ema le ditheko di leqepheng la sehlahiswa.\n\nNke ke ka o eletsa hore na ke efe e o lokelang. Ke qeto ya ditjhelete.",
+          "speech": "NetcarePlus e fana ka gap cover e thusang ka phapang pakeng tsa seo medical aid ya hao e se lefang le seo ditsebi di se lefisang. Dintlha le ditheko di leqepheng la NetcarePlus.",
+          "links": [
+            "gap_cover",
+            "netcareplus_faq"
+          ]
+        },
+        "specialist": {
+          "title": "Ho fumana setsebi",
+          "message": "Lenane la ditsebi la Netcare le hlopha ka mofuta le ka sebaka, mme le bontsha praktise ya ngaka, sepetlele le nomoro. Appointmed e tla o behela letsatsi mahala ho 0860 555 565.",
+          "speech": "Batla lenane la ditsebi la Netcare ka mofuta le ka sebaka. Appointmed e ka o behela letsatsi ho 0 8 6 0, 5 5 5, 5 6 5.",
+          "links": [
+            "specialists",
+            "appointmed"
+          ]
+        },
+        "gp": {
+          "title": "Ho fumana ngaka ya lelapa",
+          "message": "Dingaka tsa lelapa di sebetsa ditsing tsa Medicross. Lenane le hlopha ka lebatowa mme le bontsha dihora le dinomoro. Ditsi tse ngata di amohela ba tsamayang, empa ho beha letsatsi ho potlakile.",
+          "speech": "Dingaka tsa lelapa di sebetsa ditsing tsa Medicross. Batla lenane ka lebatowa bakeng sa setsi, dihora le nomoro.",
+          "links": [
+            "find_gp",
+            "medicross"
+          ]
+        },
+        "dentist": {
+          "title": "Ho fumana ngaka ya meno",
+          "message": "Dingaka tsa meno di sebetsa ditsing tsa Medicross. Lenane le hlopha ka lebatowa mme le bontsha dihora le dinomoro.",
+          "speech": "Dingaka tsa meno di sebetsa ditsing tsa Medicross. Batla lenane ka lebatowa bakeng sa setsi, dihora le nomoro.",
+          "links": [
+            "find_dentist",
+            "medicross"
+          ]
+        }
+      },
+      "keywords": {
+        "emergency": [
+          "tshohanyetso",
+          "ambulense",
+          "kotsi",
+          "pelo",
+          "madi",
+          "potlakile"
+        ],
+        "nearest": [
+          "haufi le nna",
+          "haufi",
+          "e haufi"
+        ],
+        "specialist": [
+          "setsebi",
+          "ditsebi",
+          "ngaka ya pelo",
+          "ngaka e ikgethileng",
+          "ngaka ya basadi",
+          "ngaka ya letlalo"
+        ],
+        "gp": [
+          "ngaka ya lelapa",
+          "ngaka e haufi"
+        ],
+        "dentist": [
+          "meno",
+          "ngaka ya meno"
+        ],
+        "booking": [
+          "beha letsatsi",
+          "kopano",
+          "ho bona ngaka",
+          "bookinga",
+          "letsatsi la kopano"
+        ],
+        "preadmission": [
+          "ho amohelwa",
+          "ngolo ya pele",
+          "ke tle le eng",
+          "dipampiri",
+          "ho itima dijo",
+          "opereishene",
+          "amohelwa",
+          "ho tla le eng",
+          "tshwanetse ho tla"
+        ],
+        "mental": [
+          "bophelo ba kelello",
+          "kgatello ya maikutlo",
+          "tsieleho",
+          "akeso"
+        ],
+        "maternity": [
+          "pelehi",
+          "boimana",
+          "lesea",
+          "ngwana",
+          "bomme"
+        ],
+        "gap": [
+          "gap cover",
+          "netcareplus",
+          "phapang ya tefo"
+        ],
+        "facility": [
+          "sepetlele",
+          "dipetlele",
+          "tleliniki",
+          "setsi",
+          "ditsi",
+          "medicross",
+          "kae",
+          "lenane"
+        ],
+        "medicross": [
+          "medicross"
+        ],
+        "hospital_only": [
+          "sepetlele",
+          "dipetlele"
+        ],
+        "rest": [
+          "bala tse setseng",
+          "tse setseng",
+          "tse ding",
+          "tswela pele"
+        ]
+      }
+    }
+  },
+  "specialty_aliases": {
+    "gynae": "Gynaecologist and obstetrician",
+    "gynaecologist": "Gynaecologist and obstetrician",
+    "gynecologist": "Gynaecologist and obstetrician",
+    "obstetrician": "Gynaecologist and obstetrician",
+    "obgyn": "Gynaecologist and obstetrician",
+    "cardiologist": "Cardiologist",
+    "cardio": "Cardiologist",
+    "heart doctor": "Cardiologist",
+    "orthopaedic": "Orthopaedic surgeon",
+    "orthopedic": "Orthopaedic surgeon",
+    "ortho": "Orthopaedic surgeon",
+    "neurosurgeon": "Neurosurgeon",
+    "brain surgeon": "Neurosurgeon",
+    "ent": "Ear, nose and throat (ENT) surgeon",
+    "ear nose and throat": "Ear, nose and throat (ENT) surgeon",
+    "dermatologist": "Dermatologist",
+    "skin doctor": "Dermatologist",
+    "urologist": "Urologist",
+    "paediatrician": "Paediatrician",
+    "pediatrician": "Paediatrician",
+    "child doctor": "Paediatrician",
+    "psychiatrist": "Psychiatrist",
+    "oncologist": "Oncologist",
+    "cancer doctor": "Oncologist",
+    "gastroenterologist": "Gastroenterologist",
+    "nephrologist": "Nephrologist",
+    "kidney doctor": "Nephrologist",
+    "ophthalmologist": "Ophthalmologist",
+    "eye doctor": "Ophthalmologist",
+    "pulmonologist": "Pulmonologist",
+    "lung doctor": "Pulmonologist",
+    "general surgeon": "Specialist surgeon",
+    "surgeon": "Specialist surgeon",
+    "ginekoloog": "Gynaecologist and obstetrician",
+    "kardioloog": "Cardiologist",
+    "brein chirurg": "Neurosurgeon",
+    "vroue dokter": "Gynaecologist and obstetrician",
+    "udokotela wabesifazane": "Gynaecologist and obstetrician",
+    "udokotela wenhliziyo": "Cardiologist",
+    "ngaka ya basadi": "Gynaecologist and obstetrician",
+    "ngaka ya pelo": "Cardiologist"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "greeting": {
+    "keywords": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "howzit", "morning", "afternoon", "evening", "greetings", "hi there"],
+    "response": {
+      "message": "Hello! I’m your Netcare help assistant. I can make the healthcare journey easier by helping you with appointments, MyNetcare Online, pre-admission, hospitals, emergency information, contacts and frequently asked questions. What would you like to do?",
+      "quick_replies": [
+        {"label": "Book appointment", "value": "I want to book an appointment"},
+        {"label": "MyNetcare Online", "value": "What is MyNetcare Online?"},
+        {"label": "Pre-admission", "value": "How do I do pre-admission?"},
+        {"label": "Emergency help", "value": "I need emergency help"},
+        {"label": "FAQs", "value": "Show me the FAQs"}
+      ],
+      "links": []
+    }
+  },
+  "how_are_you": {
+    "keywords": ["how are you", "how are things", "how are u", "are you okay", "how r u", "you okay", "how is it going", "how have you been", "how are you doing", "are you good"],
+    "response": {
+      "message": "I’m doing well, thank you for asking 😊. I’m here and ready to help you navigate Netcare. Tell me what you need and I’ll keep it as simple as possible.",
+      "quick_replies": [{"label": "What can you help with?", "value": "What can you help me with?"}],
+      "links": []
+    }
+  },
+  "help": {
+    "keywords": ["help", "what can you do", "what can you help with", "where do i start", "i need assistance", "assist me", "guide me", "help me", "i am confused", "i don't know what to do", "what services can you help with"],
+    "response": {
+      "message": "Of course. I can help you with:\n\n• Booking a medical appointment\n• Finding out how Netcare appointmed works\n• MyNetcare Online and pre-admission\n• Hospital and service navigation\n• Emergency-service information\n• Hospital account contacts\n• Netcare FAQs\n• General Netcare contact details\n\nJust ask your question in your own words — for example, “How do I book a specialist?” or “Who do I contact about my hospital account?”",
+      "quick_replies": [
+        {"label": "Book appointment", "value": "How do I book an appointment?"},
+        {"label": "Hospital account", "value": "Who do I contact about my hospital account?"},
+        {"label": "Pre-admission", "value": "How do I complete pre-admission?"},
+        {"label": "FAQs", "value": "Show me the FAQs"}
+      ],
+      "links": []
+    }
+  },
+  "book_appointment": {
+    "keywords": ["book appointment", "make appointment", "medical appointment", "doctor appointment", "see a doctor", "book a doctor", "book specialist", "find specialist", "book gp", "book dentist", "appointment online", "need an appointment", "request appointment", "appointmed"],
+    "response": {
+      "message": "Yes — Netcare appointmed can help you arrange an appointment. It is a free booking service. You can request an appointment online, in the Netcare app or by phone on 0860 555 565. Appointmed consultants are available Monday to Friday from 08:00 to 19:00. They can help identify suitable specialists, GPs or dentists based on your needs and, where relevant, your medical-aid network.",
+      "quick_replies": [{"label": "How does it work?", "value": "How does appointmed work?"}, {"label": "What does it cost?", "value": "Does appointmed cost anything?"}],
+      "links": [{"label": "Request an appointment", "url": "https://www.netcare.co.za/netcare-appointmed/appointmed-form"}]
+    }
+  },
+  "appointmed_process": {
+    "keywords": ["how appointmed works", "how does appointmed work", "appointmed steps", "appointment process", "booking process", "what happens after appointment request", "what happens when i request an appointment", "how are appointments booked", "appointmed procedure", "how do i use appointmed"],
+    "response": {
+      "message": "Netcare appointmed works in three simple steps:\n\n1. You request an appointment online, in the app or by phone.\n2. A Netcare appointmed consultant finds healthcare-professional options that match your requirements and medical-aid network where applicable.\n3. The consultant books your preferred option and confirms the appointment with you.",
+      "quick_replies": [{"label": "Request appointment", "value": "I want to book an appointment"}],
+      "links": [{"label": "Open appointmed", "url": "https://www.netcare.co.za/netcare-appointmed"}]
+    }
+  },
+  "appointment_hours": {
+    "keywords": ["appointmed hours", "appointment hours", "when is appointmed open", "when can i call appointmed", "what time is appointmed", "appointmed opening hours", "appointmed operating hours", "booking service hours", "appointment phone hours", "when does appointmed close"],
+    "response": {
+      "message": "Netcare appointmed is available Monday to Friday from 08:00 to 19:00. You can request an appointment online, in the app or by calling 0860 555 565.",
+      "quick_replies": [],
+      "links": [{"label": "Request an appointment", "url": "https://www.netcare.co.za/netcare-appointmed/appointmed-form"}]
+    }
+  },
+  "appointment_cost": {
+    "keywords": ["is appointmed free", "appointmed free", "appointment booking free", "does booking cost", "what does appointmed cost", "cost of appointmed", "fee for appointmed", "pay to book appointment", "booking fee", "appointment service cost"],
+    "response": {
+      "message": "Netcare says the appointmed booking service is free. The healthcare consultation or appointment itself can still involve costs depending on the healthcare professional, medical aid and your circumstances.",
+      "quick_replies": [{"label": "Book an appointment", "value": "How do I book an appointment?"}],
+      "links": [{"label": "Netcare appointmed", "url": "https://www.netcare.co.za/netcare-appointmed"}]
+    }
+  },
+  "mynetcare": {
+    "keywords": ["mynetcare", "my netcare", "netcare online", "online dashboard", "health centre", "health center", "netcare account", "manage appointments online", "link dependants", "manage my health information", "personal health dashboard", "online pre admission"],
+    "response": {
+      "message": "MyNetcare Online is Netcare’s private and secure online dashboard. You can use it to manage your personal information, manage appointments, link family members or dependants, and complete online pre-admissions.",
+      "quick_replies": [{"label": "Open MyNetcare", "value": "Open MyNetcare Online"}, {"label": "Forgot password", "value": "I forgot my MyNetcare password"}],
+      "links": [{"label": "Open MyNetcare Online", "url": "https://www.netcare.co.za/MyNetcare-Online"}]
+    }
+  },
+  "mynetcare_password": {
+    "keywords": ["forgot mynetcare password", "forgot netcare password", "reset mynetcare password", "change mynetcare password", "cannot login mynetcare", "cant login mynetcare", "mynetcare login problem", "password reset netcare", "lost mynetcare password", "mynetcare account locked"],
+    "response": {
+      "message": "For MyNetcare Online login problems, use the Forgot Password option on the MyNetcare Online sign-in screen. If your contact details have changed, Netcare says you can call 010 205 7335 during office hours or email [email protected] to verify and update them.",
+      "quick_replies": [{"label": "Open MyNetcare", "value": "Open MyNetcare Online"}],
+      "links": [{"label": "Open MyNetcare Online", "url": "https://www.netcare.co.za/MyNetcare-Online"}]
+    }
+  },
+  "preadmission": {
+    "keywords": ["pre admission", "preadmission", "pre-admission", "hospital pre admission", "prepare for admission", "online admission", "admission paperwork", "admission forms", "how do i pre admit", "before hospital admission", "hospital admission documents", "complete admission online"],
+    "response": {
+      "message": "Netcare recommends completing your pre-admission documentation online before your hospital admission date. You can do this through the secure MyNetcare Online portal. You can also complete the required documentation at the hospital reception desk.",
+      "quick_replies": [{"label": "Open MyNetcare", "value": "Open MyNetcare Online"}, {"label": "Hospital information", "value": "Show me Netcare hospital information"}],
+      "links": [{"label": "Pre-admission information", "url": "https://www.netcare.co.za/netcare-hospitals/patient-information/hospital-pre-admission"}]
+    }
+  },
+  "emergency": {
+    "keywords": ["emergency", "medical emergency", "urgent medical help", "ambulance", "netcare 911", "need an ambulance", "call ambulance", "someone is dying", "life threatening", "serious injury", "trauma", "accident", "emergency department"],
+    "response": {
+      "message": "If this is a medical emergency, please do not wait for a chatbot response. Get emergency medical help immediately. Netcare 911 provides 24-hour emergency medical services. I can also help you find the Netcare emergency-service information page.",
+      "quick_replies": [{"label": "Netcare 911", "value": "How do I contact Netcare 911?"}],
+      "links": [{"label": "Netcare 911 emergency services", "url": "https://www.netcare.co.za/netcare-911"}, {"label": "Netcare 911 contact", "url": "https://www.netcare.co.za/netcare-911/contact-us"}]
+    }
+  },
+  "contact_netcare": {
+    "keywords": ["contact netcare", "netcare contact", "customer service", "netcare customer care", "phone netcare", "email netcare", "who do i contact at netcare", "netcare support", "netcare help desk", "contact customer service", "general netcare enquiry"],
+    "response": {
+      "message": "For general Netcare customer service, call 0860 638 2273 or use the Netcare contact page. Netcare lists customer-service hours as Monday to Friday, 08:00 to 16:00.",
+      "quick_replies": [{"label": "Hospital account", "value": "Who do I contact about my hospital account?"}],
+      "links": [{"label": "Netcare Contact Us", "url": "https://www.netcare.co.za/Contact-us"}]
+    }
+  },
+  "hospital_account": {
+    "keywords": ["hospital account", "medical bill", "hospital bill", "account query", "billing query", "my hospital bill", "account problem", "charge on my bill", "payment query", "statement query", "hospital accounts", "account department"],
+    "response": {
+      "message": "For hospital account queries, Netcare lists 010 205 7335 and [email protected]. The account team operates Monday to Friday from 08:00 to 17:00. You can also SMS your ID number, patient name and hospital to 43235 and the team will call you back.",
+      "quick_replies": [{"label": "Contact Netcare", "value": "How do I contact Netcare?"}],
+      "links": [{"label": "Netcare Contact Us", "url": "https://www.netcare.co.za/Contact-us"}]
+    }
+  },
+  "find_hospital": {
+    "keywords": ["find hospital", "nearest netcare hospital", "netcare hospital near me", "where is netcare", "hospital locations", "find a netcare facility", "netcare hospitals", "nearest hospital", "hospital location", "netcare facility", "which hospital"],
+    "response": {
+      "message": "I can help you get to Netcare’s hospital directory. The directory is the safest place to find the current facility list and location details.",
+      "quick_replies": [{"label": "Emergency care", "value": "How does Netcare handle emergency care?"}],
+      "links": [{"label": "Netcare Hospitals", "url": "https://www.netcare.co.za/netcare-hospitals"}]
+    }
+  },
+  "emergency_process": {
+    "keywords": ["how emergency care works", "emergency treatment process", "triage", "how are emergencies prioritised", "emergency department process", "emergency treatment", "what happens in emergency", "triage process", "emergency care process", "how does netcare triage work"],
+    "response": {
+      "message": "Netcare says its emergency departments use the South African Triage Scale to assess how severe a patient’s condition is and to assign treatment priority according to urgency. The most critical cases are attended to immediately.",
+      "quick_replies": [{"label": "Find emergency services", "value": "I need emergency help"}],
+      "links": [{"label": "Netcare emergency and trauma care", "url": "https://www.netcare.co.za/netcare-hospitals/specialist-services/emergency-and-trauma"}]
+    }
+  },
+  "medicross": {
+    "keywords": ["medicross", "netcare medicross", "medical centre", "medical center", "dentist", "dental centre", "dental center", "medicross contact", "medicross appointment", "medicross doctor", "medicross service"],
+    "response": {
+      "message": "Netcare Medicross operates medical and dental centres. If you need help with a medical condition, Netcare advises contacting a medical professional directly rather than relying on general customer-service information.",
+      "quick_replies": [{"label": "Book an appointment", "value": "I want to book an appointment"}],
+      "links": [{"label": "Netcare Medicross Contact", "url": "https://www.netcare.co.za/netcare-medicross/contact-us"}]
+    }
+  },
+  "specialist": {
+    "keywords": ["specialist", "find specialist", "specialist doctor", "which specialist", "need a specialist", "specialist appointment", "find a doctor", "find doctor", "which doctor", "doctor for my problem", "healthcare professional"],
+    "response": {
+      "message": "If you need help finding a specialist, Netcare appointmed can help identify healthcare professionals that match your requirements. Where relevant, the service also considers your medical-aid network.",
+      "quick_replies": [{"label": "Request appointment", "value": "I want to book an appointment"}],
+      "links": [{"label": "Request an appointment", "url": "https://www.netcare.co.za/netcare-appointmed/appointmed-form"}]
+    }
+  },
+  "faq": {
+    "keywords": ["faq", "faqs", "frequently asked questions", "common questions", "show faq", "show faqs", "questions and answers", "netcare questions", "help questions", "what are the common questions", "i have a common question"],
+    "response": {
+      "message": "Here are some of the questions I can answer directly. Tap one, or type your own question:\n\n1. How do I book an appointment?\n2. What is MyNetcare Online?\n3. How do I complete pre-admission?\n4. What should I do in an emergency?\n5. Who do I contact about a hospital account?\n6. How do I find a specialist?",
+      "quick_replies": [
+        {"label": "Book appointment", "value": "How do I book an appointment?"},
+        {"label": "MyNetcare", "value": "What is MyNetcare Online?"},
+        {"label": "Pre-admission", "value": "How do I complete pre-admission?"},
+        {"label": "Emergency", "value": "What should I do in an emergency?"},
+        {"label": "Hospital account", "value": "Who do I contact about my hospital account?"}
+      ],
+      "links": [{"label": "NetcarePlus FAQs", "url": "https://www.netcare.co.za/NetcarePlus/FAQs"}]
+    }
+  },
+  "weather": {
+    "keywords": ["weather", "weather today", "what is the weather", "today weather", "forecast", "rain today", "temperature today", "is it raining", "will it rain", "weather in johannesburg", "weather in pretoria"],
+    "response": {
+      "message": "I’m a Netcare service-navigation chatbot and I do not have a live weather feed, so I won’t guess the forecast. For a current forecast, please use a trusted weather service.",
+      "quick_replies": [{"label": "Back to Netcare help", "value": "What can you help me with?"}],
+      "links": []
+    }
+  },
+  "medical_advice": {
+    "keywords": ["what disease do i have", "do i have cancer", "what medicine should i take", "what medication should i take", "diagnose me", "what is wrong with me", "interpret my results", "read my blood results", "is this serious", "should i take antibiotics", "what treatment do i need", "can you diagnose"],
+    "response": {
+      "message": "I can help you navigate Netcare services, but I should not diagnose a medical condition, interpret medical results or prescribe treatment. For a personal medical concern, please speak to a qualified healthcare professional. If it is an emergency, get emergency help immediately.",
+      "quick_replies": [{"label": "Find a professional", "value": "How do I find a specialist?"}, {"label": "Emergency help", "value": "I need emergency help"}],
+      "links": []
+    }
+  },
+  "thanks": {
+    "keywords": ["thanks", "thank you", "thankyou", "much appreciated", "appreciate it", "that helps", "thanks a lot", "thank u", "cheers", "great thanks"],
+    "response": {
+      "message": "You’re very welcome 😊. I’m glad I could make the next step a little easier. Let me know what you need next.",
+      "quick_replies": [{"label": "Show FAQs", "value": "Show me the FAQs"}],
+      "links": []
+    }
+  },
+  "goodbye": {
+    "keywords": ["bye", "goodbye", "see you", "talk later", "good night", "exit", "close chat", "i am done", "that's all", "finished"],
+    "response": {
+      "message": "Take care, and I hope your healthcare journey goes smoothly. 💙",
+      "quick_replies": [],
+      "links": []
+    }
+  },
+  "menu": {
+    "keywords": ["menu", "main menu", "start over", "restart", "home", "go home", "show menu", "reset chat", "start again", "begin again"],
+    "response": {
+      "message": "Absolutely. Here is the main menu. Choose what you need, or ask me in your own words.",
+      "quick_replies": [
+        {"label": "Book appointment", "value": "How do I book an appointment?"},
+        {"label": "MyNetcare", "value": "What is MyNetcare Online?"},
+        {"label": "Pre-admission", "value": "How do I complete pre-admission?"},
+        {"label": "Hospitals", "value": "How do I find a Netcare hospital?"},
+        {"label": "Emergency", "value": "What should I do in an emergency?"},
+        {"label": "FAQs", "value": "Show me the FAQs"}
+      ],
+      "links": []
+    }
+  }
+}

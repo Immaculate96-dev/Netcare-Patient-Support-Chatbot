@@ -1,0 +1,745 @@
+{
+  "meta": {
+    "description": "Netcare facility directory used for province, city, name and proximity lookups.",
+    "coordinate_accuracy": "Suburb-level approximations. Replace with geocoded values from Netcare's own facility directory before production use.",
+    "verification_status": "Seeded from public listings during development. Verify against https://www.netcare.co.za/search?path=hospitals_facilities before launch.",
+    "count": 69
+  },
+  "province_aliases": {
+    "gauteng": "Gauteng",
+    "kwazulu natal": "KwaZulu-Natal",
+    "kwazulu-natal": "KwaZulu-Natal",
+    "kwa zulu natal": "KwaZulu-Natal",
+    "kzn": "KwaZulu-Natal",
+    "western cape": "Western Cape",
+    "wes-kaap": "Western Cape",
+    "weskaap": "Western Cape",
+    "kapa bophirima": "Western Cape",
+    "eastern cape": "Eastern Cape",
+    "oos-kaap": "Eastern Cape",
+    "ooskaap": "Eastern Cape",
+    "free state": "Free State",
+    "vrystaat": "Free State",
+    "foreisitata": "Free State",
+    "limpopo": "Limpopo",
+    "mpumalanga": "Mpumalanga",
+    "north west": "North West",
+    "northwest": "North West",
+    "noordwes": "North West",
+    "bokone bophirima": "North West",
+    "northern cape": "Northern Cape",
+    "noord-kaap": "Northern Cape",
+    "kapa bokone": "Northern Cape"
+  },
+  "city_aliases": {
+    "joburg": "Johannesburg",
+    "jhb": "Johannesburg",
+    "jozi": "Johannesburg",
+    "egoli": "Johannesburg",
+    "johannesburg": "Johannesburg",
+    "pta": "Pretoria",
+    "tshwane": "Pretoria",
+    "pretoria": "Pretoria",
+    "pmb": "Pietermaritzburg",
+    "port elizabeth": "Gqeberha",
+    "uitenhage": "Kariega",
+    "durbs": "Durban",
+    "ethekwini": "Durban",
+    "thekwini": "Durban",
+    "kaapstad": "Cape Town",
+    "ikapa": "Cape Town",
+    "nelspruit": "Mbombela"
+  },
+  "facilities": [
+    {
+      "name": "Netcare Akasia Hospital",
+      "kind": "Hospital",
+      "address": "Cnr Heinrich & Brits Avenue, Karen Park Ext 25, Akasia, Pretoria, 0118",
+      "city": "Pretoria",
+      "province": "Gauteng",
+      "phone": "012 522 1000",
+      "lat": -25.66,
+      "lng": 28.105
+    },
+    {
+      "name": "Netcare Alberton Hospital",
+      "kind": "Hospital",
+      "address": "1 Netcare Avenue, Newmarket Precinct, Alberton, 1450",
+      "city": "Alberton",
+      "province": "Gauteng",
+      "phone": "011 742 3000",
+      "lat": -26.265,
+      "lng": 28.12
+    },
+    {
+      "name": "Netcare Constantia Day Clinic",
+      "kind": "Day clinic",
+      "address": "374 Ontdekkers Road, cnr Christiaan de Wet, Florida Hills, Roodepoort, 1709",
+      "city": "Roodepoort",
+      "province": "Gauteng",
+      "phone": "011 472 1478",
+      "lat": -26.17,
+      "lng": 27.89
+    },
+    {
+      "name": "Netcare Femina Hospital",
+      "kind": "Hospital",
+      "address": "460 Belvedere Street, Arcadia, Pretoria, 0007",
+      "city": "Pretoria",
+      "province": "Gauteng",
+      "phone": "012 304 1700",
+      "lat": -25.745,
+      "lng": 28.21
+    },
+    {
+      "name": "Netcare Garden City Hospital",
+      "kind": "Hospital",
+      "address": "35 Bartlett Road, Mayfair West, Johannesburg, 2092",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "phone": "011 495 5000",
+      "lat": -26.205,
+      "lng": 27.995
+    },
+    {
+      "name": "Netcare Jakaranda Hospital",
+      "kind": "Hospital",
+      "address": "213 Middelberg Street, Muckleneuk, Pretoria, 0132",
+      "city": "Pretoria",
+      "province": "Gauteng",
+      "phone": "012 421 6700",
+      "lat": -25.76,
+      "lng": 28.195
+    },
+    {
+      "name": "Netcare Krugersdorp Hospital",
+      "kind": "Hospital",
+      "address": "9 Burger Street, Krugersdorp Central, 1739",
+      "city": "Krugersdorp",
+      "province": "Gauteng",
+      "phone": "011 951 0200",
+      "lat": -26.1,
+      "lng": 27.775
+    },
+    {
+      "name": "Netcare Lakeview Hospital",
+      "kind": "Hospital",
+      "address": "1 Mowbray Avenue, Benoni CBD, Benoni, 1500",
+      "city": "Benoni",
+      "province": "Gauteng",
+      "phone": "011 019 2500",
+      "lat": -26.19,
+      "lng": 28.32
+    },
+    {
+      "name": "Netcare Linksfield Hospital",
+      "kind": "Hospital",
+      "address": "24 Twelfth Avenue, Linksfield West, Johannesburg, 2192",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "phone": "011 647 3400",
+      "lat": -26.165,
+      "lng": 28.095
+    },
+    {
+      "name": "Netcare Linkwood Hospital",
+      "kind": "Hospital",
+      "address": "24 Twelfth Avenue, Linksfield West, Johannesburg, 2192",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "phone": "011 485 3250",
+      "lat": -26.165,
+      "lng": 28.095
+    },
+    {
+      "name": "Netcare Linmed Hospital",
+      "kind": "Hospital",
+      "address": "5 Hull Road, Rynfield, Benoni, 1501",
+      "city": "Benoni",
+      "province": "Gauteng",
+      "phone": "011 748 6200",
+      "lat": -26.17,
+      "lng": 28.34
+    },
+    {
+      "name": "Netcare Milpark Hospital",
+      "kind": "Hospital",
+      "address": "9 Guild Road, Parktown West, Johannesburg, 2193",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "phone": "011 480 5600",
+      "lat": -26.18,
+      "lng": 28.018
+    },
+    {
+      "name": "Netcare Montana Hospital",
+      "kind": "Hospital",
+      "address": "Cnr Dr Swanepoel & Rooibos Streets, Montana Park, Pretoria, 0159",
+      "city": "Pretoria",
+      "province": "Gauteng",
+      "phone": "012 523 3000",
+      "lat": -25.675,
+      "lng": 28.235
+    },
+    {
+      "name": "Netcare Moot Hospital",
+      "kind": "Hospital",
+      "address": "572 Eighteenth Avenue, Rietfontein, Pretoria, 0084",
+      "city": "Pretoria",
+      "province": "Gauteng",
+      "phone": "012 330 8200",
+      "lat": -25.715,
+      "lng": 28.21
+    },
+    {
+      "name": "Netcare Mulbarton Hospital",
+      "kind": "Hospital",
+      "address": "25 True North Road, Mulbarton, Johannesburg, 2059",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "phone": "011 682 4300",
+      "lat": -26.29,
+      "lng": 28.025
+    },
+    {
+      "name": "Netcare N17 Hospital",
+      "kind": "Hospital",
+      "address": "7 Tonk Meter Road, Pollak Park, Springs, 1559",
+      "city": "Springs",
+      "province": "Gauteng",
+      "phone": "011 365 1400",
+      "lat": -26.26,
+      "lng": 28.44
+    },
+    {
+      "name": "Netcare Olivedale Hospital",
+      "kind": "Hospital",
+      "address": "Cnr President Fouche & Windsor Way, Olivedale, Randburg, 2125",
+      "city": "Randburg",
+      "province": "Gauteng",
+      "phone": "011 777 2000",
+      "lat": -26.06,
+      "lng": 27.96
+    },
+    {
+      "name": "Netcare Park Lane Hospital",
+      "kind": "Hospital",
+      "address": "Cnr Junction Avenue & Park Lane, Parktown, Johannesburg, 2193",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "phone": "011 480 4000",
+      "lat": -26.185,
+      "lng": 28.045
+    },
+    {
+      "name": "Netcare Pinehaven Hospital",
+      "kind": "Hospital",
+      "address": "1 Gateway Road, Pinehaven Estate, Krugersdorp, 1739",
+      "city": "Krugersdorp",
+      "province": "Gauteng",
+      "phone": "011 950 5400",
+      "lat": -26.105,
+      "lng": 27.825
+    },
+    {
+      "name": "Netcare Pretoria East Hospital",
+      "kind": "Hospital",
+      "address": "Cnr Garsfontein & Netcare Road, Moreleta Park, Pretoria, 0181",
+      "city": "Pretoria",
+      "province": "Gauteng",
+      "phone": "012 422 2300",
+      "lat": -25.82,
+      "lng": 28.295
+    },
+    {
+      "name": "Netcare Rand Hospital",
+      "kind": "Hospital",
+      "address": "33 Bruce Street, Johannesburg CBD, 2000",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "phone": "011 644 2700",
+      "lat": -26.2,
+      "lng": 28.04
+    },
+    {
+      "name": "Netcare Rehabilitation Hospital",
+      "kind": "Rehabilitation hospital",
+      "address": "28 Canary Street, Auckland Park, Johannesburg, 2006",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "phone": "011 489 1111",
+      "lat": -26.18,
+      "lng": 28.01
+    },
+    {
+      "name": "Netcare Rosebank Hospital",
+      "kind": "Hospital",
+      "address": "14 Sturdee Avenue, Rosebank, Johannesburg, 2132",
+      "city": "Johannesburg",
+      "province": "Gauteng",
+      "phone": "011 328 0500",
+      "lat": -26.145,
+      "lng": 28.04
+    },
+    {
+      "name": "Netcare Sunninghill Hospital",
+      "kind": "Hospital",
+      "address": "Cnr Witkoppen & Nanyuki Roads, Sunninghill, Sandton, 2157",
+      "city": "Sandton",
+      "province": "Gauteng",
+      "phone": "011 806 1500",
+      "lat": -26.03,
+      "lng": 28.065
+    },
+    {
+      "name": "Netcare Sunward Park Hospital",
+      "kind": "Hospital",
+      "address": "Cnr Kingfisher Avenue, Aquarius Road & Bert Lacey Drive, Sunward Park, Boksburg, 1459",
+      "city": "Boksburg",
+      "province": "Gauteng",
+      "phone": "011 897 1600",
+      "lat": -26.255,
+      "lng": 28.24
+    },
+    {
+      "name": "Netcare Union Hospital",
+      "kind": "Hospital",
+      "address": "Clinton Road, New Redruth, Alberton, 1449",
+      "city": "Alberton",
+      "province": "Gauteng",
+      "phone": "011 724 2000",
+      "lat": -26.27,
+      "lng": 28.125
+    },
+    {
+      "name": "Netcare Unitas Hospital",
+      "kind": "Hospital",
+      "address": "Clifton Avenue, Lyttelton, Centurion, 0140",
+      "city": "Centurion",
+      "province": "Gauteng",
+      "phone": "012 677 8000",
+      "lat": -25.845,
+      "lng": 28.19
+    },
+    {
+      "name": "Netcare Waterfall City Hospital",
+      "kind": "Hospital",
+      "address": "Cnr Magwa Crescent & MacMac Avenue, Vorna Valley, Midrand, 1682",
+      "city": "Midrand",
+      "province": "Gauteng",
+      "phone": "011 304 6600",
+      "lat": -26.015,
+      "lng": 28.11
+    },
+    {
+      "name": "Netcare Alberlito Hospital",
+      "kind": "Hospital",
+      "address": "Kirsty Close, Ballito Central, 4420",
+      "city": "Ballito",
+      "province": "KwaZulu-Natal",
+      "phone": "032 946 6700",
+      "lat": -29.54,
+      "lng": 31.215
+    },
+    {
+      "name": "Netcare Kingsway Hospital",
+      "kind": "Hospital",
+      "address": "607 Andrew Zondo Road, Amanzimtoti, 4126",
+      "city": "Amanzimtoti",
+      "province": "KwaZulu-Natal",
+      "phone": "031 904 7000",
+      "lat": -30.05,
+      "lng": 30.88
+    },
+    {
+      "name": "Netcare Kokstad Private Hospital",
+      "kind": "Hospital",
+      "address": "51 Baker Street, Kokstad Central, 4700",
+      "city": "Kokstad",
+      "province": "KwaZulu-Natal",
+      "phone": "039 797 8340",
+      "lat": -30.55,
+      "lng": 29.425
+    },
+    {
+      "name": "Netcare Margate Hospital",
+      "kind": "Hospital",
+      "address": "24 Wartski Drive, Margate Central, 4275",
+      "city": "Margate",
+      "province": "KwaZulu-Natal",
+      "phone": "039 312 7300",
+      "lat": -30.86,
+      "lng": 30.37
+    },
+    {
+      "name": "Netcare Parklands Hospital",
+      "kind": "Hospital",
+      "address": "75 Hopelands Road, Overport, Durban, 4001",
+      "city": "Durban",
+      "province": "KwaZulu-Natal",
+      "phone": "031 242 4000",
+      "lat": -29.835,
+      "lng": 30.995
+    },
+    {
+      "name": "Netcare St Anne's Hospital",
+      "kind": "Hospital",
+      "address": "331 Burger Street, Pietermaritzburg Central, 3201",
+      "city": "Pietermaritzburg",
+      "province": "KwaZulu-Natal",
+      "phone": "033 897 5000",
+      "lat": -29.6,
+      "lng": 30.38
+    },
+    {
+      "name": "Netcare St Augustine's Hospital",
+      "kind": "Hospital",
+      "address": "107 JB Marks Road, Berea, Durban, 4001",
+      "city": "Durban",
+      "province": "KwaZulu-Natal",
+      "phone": "031 268 5000",
+      "lat": -29.86,
+      "lng": 31.0
+    },
+    {
+      "name": "Netcare The Bay Hospital",
+      "kind": "Hospital",
+      "address": "Krugerrand Road, Richards Bay CBD, 3900",
+      "city": "Richards Bay",
+      "province": "KwaZulu-Natal",
+      "phone": "035 780 6111",
+      "lat": -28.76,
+      "lng": 32.06
+    },
+    {
+      "name": "Netcare uMhlanga Hospital",
+      "kind": "Hospital",
+      "address": "323 Umhlanga Rocks Drive, Umhlanga, 4320",
+      "city": "Umhlanga",
+      "province": "KwaZulu-Natal",
+      "phone": "031 560 5500",
+      "lat": -29.73,
+      "lng": 31.075
+    },
+    {
+      "name": "Netcare Umhlanga Eye Institute",
+      "kind": "Eye institute",
+      "address": "5th Floor Medical Centre, 19 The High Street, Umhlanga New Town Centre, 4319",
+      "city": "Umhlanga",
+      "province": "KwaZulu-Natal",
+      "phone": "031 536 1800",
+      "lat": -29.725,
+      "lng": 31.08
+    },
+    {
+      "name": "Netcare Blaauwberg Hospital",
+      "kind": "Hospital",
+      "address": "Waterville Crescent, Sunningdale, Cape Town, 7441",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "phone": "021 554 9000",
+      "lat": -33.77,
+      "lng": 18.475
+    },
+    {
+      "name": "Netcare Christiaan Barnard Memorial Hospital",
+      "kind": "Hospital",
+      "address": "Cnr DF Malan Street & Rua Bartholomeu Dias Plain, Foreshore, Cape Town, 8001",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "phone": "021 441 0000",
+      "lat": -33.918,
+      "lng": 18.427
+    },
+    {
+      "name": "Netcare Kuils River Hospital",
+      "kind": "Hospital",
+      "address": "33 Van Riebeeck Road, Kuils River, Cape Town, 7580",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "phone": "021 900 6000",
+      "lat": -33.935,
+      "lng": 18.68
+    },
+    {
+      "name": "Netcare N1 City Hospital",
+      "kind": "Hospital",
+      "address": "Loutjie Rothman Street, Goodwood, Cape Town, 7460",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "phone": "021 590 4444",
+      "lat": -33.885,
+      "lng": 18.555
+    },
+    {
+      "name": "Netcare UCT Private Academic Hospital",
+      "kind": "Hospital",
+      "address": "D18 Anzio Road, Observatory, Cape Town, 7925",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "phone": "021 442 1800",
+      "lat": -33.94,
+      "lng": 18.465
+    },
+    {
+      "name": "Netcare Greenacres Hospital",
+      "kind": "Hospital",
+      "address": "Cnr Cape & Rochelle Roads, Greenacres, Gqeberha, 6045",
+      "city": "Gqeberha",
+      "province": "Eastern Cape",
+      "phone": "041 390 7000",
+      "lat": -33.935,
+      "lng": 25.56
+    },
+    {
+      "name": "Netcare Cuyler Hospital",
+      "kind": "Hospital",
+      "address": "34 Cuyler Street, Kariega Central, 6229",
+      "city": "Kariega",
+      "province": "Eastern Cape",
+      "phone": "041 995 9000",
+      "lat": -33.76,
+      "lng": 25.4
+    },
+    {
+      "name": "Netcare Universitas Private Hospital",
+      "kind": "Hospital",
+      "address": "1 Logeman Street, Universitas, Bloemfontein, 9301",
+      "city": "Bloemfontein",
+      "province": "Free State",
+      "phone": "051 506 3500",
+      "lat": -29.11,
+      "lng": 26.175
+    },
+    {
+      "name": "Netcare Pelonomi Private Hospital",
+      "kind": "Hospital",
+      "address": "121 Dr Belcher Road, Heidedal, Bloemfontein, 9301",
+      "city": "Bloemfontein",
+      "province": "Free State",
+      "phone": "051 407 1500",
+      "lat": -29.14,
+      "lng": 26.24
+    },
+    {
+      "name": "Netcare Kroon Hospital",
+      "kind": "Hospital",
+      "address": "Noordweg, Kroonstad Central, 9499",
+      "city": "Kroonstad",
+      "province": "Free State",
+      "phone": "056 215 1881",
+      "lat": -27.65,
+      "lng": 27.235
+    },
+    {
+      "name": "Netcare Vaalpark Hospital",
+      "kind": "Hospital",
+      "address": "40 Karas Street, Vaalpark, Sasolburg, 1947",
+      "city": "Sasolburg",
+      "province": "Free State",
+      "phone": "016 971 9000",
+      "lat": -26.77,
+      "lng": 27.84
+    },
+    {
+      "name": "Netcare Pholoso Hospital",
+      "kind": "Hospital",
+      "address": "Cnr Grobler Street & Eland Avenue, Savannah, Polokwane, 0699",
+      "city": "Polokwane",
+      "province": "Limpopo",
+      "phone": "015 296 6500",
+      "lat": -23.89,
+      "lng": 29.44
+    },
+    {
+      "name": "Netcare Ferncrest Hospital",
+      "kind": "Hospital",
+      "address": "Moumo Street, Tlhabane, Rustenburg, 0309",
+      "city": "Rustenburg",
+      "province": "North West",
+      "phone": "014 568 4399",
+      "lat": -25.65,
+      "lng": 27.22
+    },
+    {
+      "name": "Medicross Boksburg",
+      "kind": "Medical & dental centre",
+      "address": "Cnr Trichardt & North Rand Roads, Bardene, Boksburg, 1459",
+      "city": "Boksburg",
+      "province": "Gauteng",
+      "phone": "011 841 5000",
+      "lat": -26.21,
+      "lng": 28.245
+    },
+    {
+      "name": "Medicross Benoni",
+      "kind": "Medical & dental centre",
+      "address": "Cnr Kei & Great North Roads, Farrarmere, Benoni, 1501",
+      "city": "Benoni",
+      "province": "Gauteng",
+      "phone": "011 741 4500",
+      "lat": -26.175,
+      "lng": 28.33
+    },
+    {
+      "name": "Medicross Carlswald",
+      "kind": "Medical & dental centre",
+      "address": "Carlswald Decor Centre, cnr Fifth & Harry Galaun Roads, Midrand, 1683",
+      "city": "Midrand",
+      "province": "Gauteng",
+      "phone": "011 318 0634",
+      "lat": -25.985,
+      "lng": 28.115
+    },
+    {
+      "name": "Medicross Edenvale",
+      "kind": "Medical & dental centre",
+      "address": "111 Andries Pretorius Street, Edenvale, 1610",
+      "city": "Edenvale",
+      "province": "Gauteng",
+      "phone": "011 451 9500",
+      "lat": -26.14,
+      "lng": 28.155
+    },
+    {
+      "name": "Medicross Germiston",
+      "kind": "Medical & dental centre",
+      "address": "Cnr Webber & Olivier Roads, Estera, Germiston, 1422",
+      "city": "Germiston",
+      "province": "Gauteng",
+      "phone": "011 824 7300",
+      "lat": -26.23,
+      "lng": 28.17
+    },
+    {
+      "name": "Medicross Kembirch",
+      "kind": "Medical & dental centre",
+      "address": "Elgin Mall, cnr Elgin Road & Olienhout Avenue, Birchleigh, Kempton Park, 1619",
+      "city": "Kempton Park",
+      "province": "Gauteng",
+      "phone": "011 391 4850",
+      "lat": -26.06,
+      "lng": 28.22
+    },
+    {
+      "name": "Medicross Randburg",
+      "kind": "Medical & dental centre",
+      "address": "Cnr Rabie & Malibongwe Streets, Fontainebleau, Randburg, 2194",
+      "city": "Randburg",
+      "province": "Gauteng",
+      "phone": "011 796 1400",
+      "lat": -26.09,
+      "lng": 27.975
+    },
+    {
+      "name": "Medicross Roodepoort",
+      "kind": "Medical & dental centre",
+      "address": "54 Ontdekkers Road, Princess Crossing, Roodepoort, 1724",
+      "city": "Roodepoort",
+      "province": "Gauteng",
+      "phone": "011 279 9400",
+      "lat": -26.15,
+      "lng": 27.86
+    },
+    {
+      "name": "Medicross Gezina",
+      "kind": "Medical & dental centre",
+      "address": "Gezina Stad Shopping Centre, 593 Nico Smith Street, Gezina, Pretoria, 0084",
+      "city": "Pretoria",
+      "province": "Gauteng",
+      "phone": "012 404 4600",
+      "lat": -25.72,
+      "lng": 28.195
+    },
+    {
+      "name": "Medicross Silverton",
+      "kind": "Medical & dental centre",
+      "address": "310 Pretoria Road, Silverton, Pretoria, 0184",
+      "city": "Pretoria",
+      "province": "Gauteng",
+      "phone": "012 804 4356",
+      "lat": -25.735,
+      "lng": 28.3
+    },
+    {
+      "name": "Medicross Tokai",
+      "kind": "Medical & dental centre",
+      "address": "Cnr Tokai Road & Keyser River Drive, Tokai, Cape Town, 7945",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "phone": "021 710 9950",
+      "lat": -34.06,
+      "lng": 18.44
+    },
+    {
+      "name": "Medicross Parow",
+      "kind": "Medical & dental centre",
+      "address": "8 McIntyre Road, Parow, Cape Town, 7500",
+      "city": "Cape Town",
+      "province": "Western Cape",
+      "phone": "021 930 5580",
+      "lat": -33.9,
+      "lng": 18.59
+    },
+    {
+      "name": "Medicross Pinetown",
+      "kind": "Medical & dental centre",
+      "address": "Cnr Josiah Gumede & Meller Roads, Pinetown, 3610",
+      "city": "Pinetown",
+      "province": "KwaZulu-Natal",
+      "phone": "031 709 3070",
+      "lat": -29.815,
+      "lng": 30.86
+    },
+    {
+      "name": "Medicross Bluff",
+      "kind": "Medical & dental centre",
+      "address": "54 Lighthouse Road, Bluff, Durban, 4052",
+      "city": "Durban",
+      "province": "KwaZulu-Natal",
+      "phone": "031 466 5030",
+      "lat": -29.92,
+      "lng": 31.01
+    },
+    {
+      "name": "Medicross Kimberley",
+      "kind": "Medical & dental centre",
+      "address": "Cnr Stone & Long Streets, Kimberley Central, 8301",
+      "city": "Kimberley",
+      "province": "Northern Cape",
+      "phone": "053 830 4200",
+      "lat": -28.74,
+      "lng": 24.765
+    },
+    {
+      "name": "Medicross Nelmed",
+      "kind": "Medical & dental centre",
+      "address": "Cnr Rothery & NRL Streets, Mbombela Central, 1200",
+      "city": "Mbombela",
+      "province": "Mpumalanga",
+      "phone": "013 755 5000",
+      "lat": -25.47,
+      "lng": 30.97
+    },
+    {
+      "name": "Medicross Rustenburg",
+      "kind": "Medical & dental centre",
+      "address": "Cnr Von Wielligh & President Mbeki Roads, Rustenburg Central, 0299",
+      "city": "Rustenburg",
+      "province": "North West",
+      "phone": "014 523 5100",
+      "lat": -25.67,
+      "lng": 27.245
+    },
+    {
+      "name": "Medicross Bloemfontein",
+      "kind": "Medical & dental centre",
+      "address": "College Square, 183 Nelson Mandela Drive, Brandwag, Bloemfontein, 9301",
+      "city": "Bloemfontein",
+      "province": "Free State",
+      "phone": "051 406 0200",
+      "lat": -29.12,
+      "lng": 26.19
+    }
+  ]
+}

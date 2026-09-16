@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-ZA" id="rootHtml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Netcare Help Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body data-size="normal">
+  <a class="skip-link" href="#messageInput" id="skipLink">Skip to the question box</a>
+
+  <div class="emergency-strip">
+    <p id="emergencyLead"><strong>Medical emergency?</strong> Netcare 911 answers 24 hours.</p>
+    <a id="emergencyBtn" href="tel:082911">Call 082 911</a>
+  </div>
+
+  <main class="page-shell">
+    <section class="chat-app" aria-label="Netcare help assistant">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <a class="brand" href="https://www.netcare.co.za/" target="_blank" rel="noopener">
+            <span class="brand-word">NETCARE</span>
+            <span class="brand-mark">+</span>
+          </a>
+          <div>
+            <p class="eyebrow" id="eyebrow">Patient support</p>
+            <h1 id="pageTitle">How can we help you?</h1>
+          </div>
+        </div>
+        <div class="top-actions">
+          <button id="menuButton" class="secondary-btn" type="button">Menu</button>
+          <button id="restartButton" class="secondary-btn" type="button">Restart</button>
+        </div>
+      </header>
+
+      <div class="notice">
+        <strong id="noticeTitle">Netcare Help Assistant</strong>
+        <span id="noticeBody">I can help you find hospitals and specialists, and navigate appointments, pre-admission and emergency information. I do not diagnose medical conditions.</span>
+      </div>
+
+      <div class="prefs" role="group" aria-label="Language, display and voice settings">
+        <label class="sr-only" for="languageSelect" id="languageLabel">Language</label>
+        <select id="languageSelect"></select>
+        <button id="nearMeButton" class="pref-btn" type="button">Hospitals near me</button>
+        <button id="speakToggle" class="pref-btn" type="button" aria-pressed="true">Read answers aloud</button>
+        <button id="sizeToggle" class="pref-btn" type="button">Text size: normal</button>
+        <button id="themeToggle" class="pref-btn" type="button">Switch to dark</button>
+        <button id="stopSpeakButton" class="pref-btn" type="button" hidden>Stop reading aloud</button>
+      </div>
+
+      <section id="chat" class="chat" role="log" aria-live="polite"></section>
+
+      <div id="typing" class="typing hidden" aria-hidden="true">
+        <span></span><span></span><span></span> <em id="typingLabel">Netcare assistant is typing…</em>
+      </div>
+
+      <form id="chatForm" class="composer">
+        <label class="sr-only" for="messageInput" id="inputLabel">Ask a question</label>
+        <input id="messageInput" maxlength="2000" autocomplete="off"
+               placeholder="Ask in your own words… e.g. Netcare hospitals in Gauteng"
+               aria-describedby="speechHelp" />
+        <button id="sendButton" type="submit">Send</button>
+      </form>
+
+      <div id="speechHelp" class="speech-help" role="status" aria-live="polite"></div>
+
+      <footer class="footer-note">
+        <span id="footerNote">For emergencies, get emergency medical help immediately.</span>
+        <a href="https://www.netcare.co.za/netcare-911" target="_blank" rel="noopener">Netcare 911</a>
+        <span class="build-tag" title="Confirms you are running the multilingual build with the facility directory and proximity search">build: multilingual-v2</span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

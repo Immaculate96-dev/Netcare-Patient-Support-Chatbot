@@ -1,0 +1,260 @@
+{
+  "brand": {
+    "name": "Netcare",
+    "tagline": "Helping you navigate your healthcare journey",
+    "official_site": "https://www.netcare.co.za/"
+  },
+  "links": {
+    "appointmed": "https://www.netcare.co.za/netcare-appointmed/appointmed-form",
+    "appointmed_info": "https://www.netcare.co.za/netcare-appointmed",
+    "mynetcare": "https://www.netcare.co.za/MyNetcare-Online",
+    "contact": "https://www.netcare.co.za/Contact-us",
+    "hospitals": "https://www.netcare.co.za/netcare-hospitals",
+    "pre_admission": "https://www.netcare.co.za/netcare-hospitals/patient-information/hospital-pre-admission",
+    "emergency": "https://www.netcare.co.za/netcare-911",
+    "emergency_contact": "https://www.netcare.co.za/netcare-911/contact-us",
+    "medicross": "https://www.netcare.co.za/netcare-medicross/contact-us",
+    "netcareplus_faq": "https://www.netcare.co.za/NetcarePlus/FAQs",
+    "specialists": "https://www.netcare.co.za/search?path=hospitals_specialists",
+    "find_gp": "https://www.netcare.co.za/search?path=medicross_gp",
+    "find_dentist": "https://www.netcare.co.za/search?path=medicross_dentist",
+    "hospital_search": "https://www.netcare.co.za/search?path=hospitals_facilities",
+    "akeso": "https://www.netcare.co.za/search?path=akeso_facilities",
+    "akeso_selfassess": "https://www.netcare.co.za/netcare-akeso/self-assessment",
+    "mother_baby": "https://www.netcare.co.za/search?path=mother_baby_clinics",
+    "gap_cover": "https://www.netcare.co.za/NetcarePlus/Gap-Cover",
+    "emergency_trauma": "https://www.netcare.co.za/netcare-hospitals/specialist-services/emergency-and-trauma"
+  },
+  "facts": {
+    "appointmed_phone": "0860 555 565",
+    "appointmed_hours": "Monday to Friday, 08:00 to 19:00",
+    "appointmed_service": "Netcare appointmed is a free appointment-booking service that can help find and book appointments with specialists, GPs and dentists in Netcare’s network, subject to the relevant service and practitioner network.",
+    "appointmed_process": [
+      "Request an appointment online, in the Netcare app or by phone.",
+      "A Netcare appointmed consultant finds healthcare professional options based on your requirements and medical-aid network where applicable.",
+      "The consultant books the preferred appointment and confirms it with you."
+    ],
+    "mynetcare_summary": "MyNetcare Online is a private and secure online dashboard where users can manage personal information, manage appointments, link dependants and complete online pre-admissions.",
+    "mynetcare_help_phone": "010 205 7335",
+    "mynetcare_help_email": "[email protected]",
+    "customer_service_phone": "0860 638 2273",
+    "customer_service_email": "[email protected]",
+    "customer_service_hours": "Monday to Friday, 08:00 to 16:00",
+    "account_queries_phone": "010 205 7335",
+    "account_queries_email": "[email protected]",
+    "account_queries_hours": "Monday to Friday, 08:00 to 17:00",
+    "account_queries_sms": "SMS your ID number, patient name and hospital to 43235 and the team will call you back.",
+    "pre_admission_summary": "Netcare recommends completing pre-admission documentation online before the admission date. This can be done through the secure MyNetcare Online portal or at the hospital reception desk.",
+    "emergency_summary": "Netcare 911 provides 24-hour emergency medical services. In a life-threatening emergency, seek emergency medical help immediately.",
+    "medicross_summary": "Netcare Medicross provides medical and dental centres. For a medical condition, Netcare advises contacting a medical professional directly rather than relying on general customer service information.",
+    "not_medical_advice": "This chatbot provides healthcare navigation and general Netcare service information. It does not diagnose conditions, prescribe treatment, interpret test results or replace a doctor or emergency service."
+  },
+  "hospital_directory_source": {
+    "url": "https://www.netcare.co.za/netcare-hospitals",
+    "note": "Static directory records below were compiled from current Netcare pages during build. Where a hospital telephone number was not directly verified, no number is provided."
+  },
+  "hospitals": [
+    {
+      "name": "Netcare Waterfall City Hospital",
+      "location": "Midrand, Gauteng",
+      "province": "Gauteng",
+      "address": "Cnr Magwa Crescent & Mac Mac Avenue, Midrand 1682",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare uMhlanga Hospital",
+      "location": "uMhlanga, KwaZulu-Natal",
+      "province": "KwaZulu-Natal",
+      "address": "323 uMhlanga Rocks Drive, uMhlanga 4320",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare Alberlito Hospital",
+      "location": "Ballito, KwaZulu-Natal",
+      "province": "KwaZulu-Natal",
+      "address": "Kirsty Close, Ballito 4420",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare Kingsway Hospital",
+      "location": "Amanzimtoti, KwaZulu-Natal",
+      "province": "KwaZulu-Natal",
+      "address": "607 Andrew Zondo Road, Amanzimtoti 4126",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare Margate Hospital",
+      "location": "Margate, KwaZulu-Natal",
+      "province": "KwaZulu-Natal",
+      "address": "24 Wartski Drive, Margate 4275",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare St Augustine’s Hospital",
+      "location": "Durban, KwaZulu-Natal",
+      "province": "KwaZulu-Natal",
+      "address": "107 JB Marks Road, Durban 4001",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare St Anne’s Hospital",
+      "location": "Pietermaritzburg, KwaZulu-Natal",
+      "province": "KwaZulu-Natal",
+      "address": "331 Burger Street, Pietermaritzburg 3201",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare The Bay Hospital",
+      "location": "Richards Bay, KwaZulu-Natal",
+      "province": "KwaZulu-Natal",
+      "address": "Kruger Rand Road, CBD, Richards Bay 3900",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare Blaauwberg Hospital",
+      "location": "Sunningdale, Western Cape",
+      "province": "Western Cape",
+      "address": "Waterville Crescent, Sunningdale 7441",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare Christiaan Barnard Memorial Hospital",
+      "location": "Cape Town, Western Cape",
+      "province": "Western Cape",
+      "address": "181 Longmarket Street, Cape Town 8001",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare Kuils River Hospital",
+      "location": "Kuils River, Western Cape",
+      "province": "Western Cape",
+      "address": "33 Van Riebeeck Road, Kuils River 7580",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/Netcare-Pharmacies"
+    },
+    {
+      "name": "Netcare N1 City Hospital",
+      "location": "Goodwood, Cape Town, Western Cape",
+      "province": "Western Cape",
+      "address": "Louwtjie Rothman Street, Goodwood 7460",
+      "contact": "Hospital details: use the official Netcare hospital directory.",
+      "source": "https://www.netcare.co.za/divisions/complementary-business-operations/netcare-pharmacies"
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Dr J Finestone",
+      "speciality": "Neurosurgeon",
+      "hospital": "Netcare Greenacres Hospital",
+      "contact": "011 897 1785",
+      "source": "https://www.netcare.co.za/netcare-hospitals/specialist-services/neurological-and-neurosurgical/gamma-knife"
+    },
+    {
+      "name": "Dr WH Makhambeni",
+      "speciality": "Neurosurgeon",
+      "hospital": "Netcare Linmed Hospital",
+      "contact": "041 363 1200",
+      "source": "https://www.netcare.co.za/netcare-hospitals/specialist-services/neurological-and-neurosurgical/gamma-knife"
+    },
+    {
+      "name": "Dr KN Retief",
+      "speciality": "Neurosurgeon",
+      "hospital": "Netcare Sunninghill Hospital",
+      "contact": "011 748 6217",
+      "source": "https://www.netcare.co.za/netcare-hospitals/specialist-services/neurological-and-neurosurgical/gamma-knife"
+    },
+    {
+      "name": "Dr CF Fourie",
+      "speciality": "Neurosurgeon",
+      "hospital": "Netcare Krugersdorp Hospital",
+      "contact": "011 806 1818",
+      "source": "https://www.netcare.co.za/netcare-hospitals/specialist-services/neurological-and-neurosurgical/gamma-knife"
+    },
+    {
+      "name": "Dr M Mpanza",
+      "speciality": "Neurosurgeon",
+      "hospital": "Netcare Garden City Hospital",
+      "contact": "011 953 2566",
+      "source": "https://www.netcare.co.za/netcare-hospitals/specialist-services/neurological-and-neurosurgical/gamma-knife"
+    },
+    {
+      "name": "Dr G Teuwen",
+      "speciality": "Neurosurgeon",
+      "hospital": "Netcare Olivedale Hospital",
+      "contact": "011 495 5000",
+      "source": "https://www.netcare.co.za/netcare-hospitals/specialist-services/neurological-and-neurosurgical/gamma-knife"
+    },
+    {
+      "name": "Dr H Kruger",
+      "speciality": "Neurosurgeon",
+      "hospital": "Netcare Montana Hospital",
+      "contact": "011 704 3418",
+      "source": "https://www.netcare.co.za/netcare-hospitals/specialist-services/neurological-and-neurosurgical/gamma-knife"
+    },
+    {
+      "name": "Dr Sebenele Maseko",
+      "speciality": "Ear, nose and throat (ENT) surgeon",
+      "hospital": "Netcare Waterfall City Hospital",
+      "contact": "",
+      "source": "https://www.netcare.co.za/News-Hub/Articles/spring-allergies-or-something-more"
+    },
+    {
+      "name": "Dr Tercia Tsakani Nkuna-Shilenge",
+      "speciality": "Ear, nose and throat (ENT) surgeon",
+      "hospital": "Netcare Waterfall City Hospital",
+      "contact": "",
+      "source": "https://www.netcare.co.za/News-Hub/Articles/spring-allergies-or-something-more"
+    },
+    {
+      "name": "Dr Aslam Noorbhai",
+      "speciality": "Specialist surgeon",
+      "hospital": "Netcare uMhlanga Hospital",
+      "contact": "",
+      "source": "https://www.netcare.co.za/News-Hub/Articles/paramedic-vows-to-pay-it-forward-after-life-saving-intervention"
+    },
+    {
+      "name": "Dr Omolemo Kitchin",
+      "speciality": "Paediatric pulmonologist",
+      "hospital": "Netcare Waterfall City Hospital",
+      "contact": "",
+      "source": "https://www.netcare.co.za/News-Hub/Articles/pono-entles-heartwarming-homecoming"
+    },
+    {
+      "name": "Dr Michael Thubisi",
+      "speciality": "Gynaecologist and obstetrician",
+      "hospital": "Netcare Waterfall City Hospital",
+      "contact": "",
+      "source": "https://www.netcare.co.za/News-Hub/Articles/pono-entles-heartwarming-homecoming"
+    },
+    {
+      "name": "Dr Rajesh Bodasing",
+      "speciality": "Pulmonologist",
+      "hospital": "Netcare uMhlanga Hospital",
+      "contact": "",
+      "source": "https://www.netcare.co.za/News-Hub/Articles/protect-yourself-know-the-warning-signs-of-tb"
+    },
+    {
+      "name": "Dr Ashley Naidoo",
+      "speciality": "Orthopaedic surgeon",
+      "hospital": "Netcare Waterfall City Hospital",
+      "contact": "",
+      "source": "https://www.netcare.co.za/News-Hub/Articles/tech-meets-personalised-care-to-change-lives"
+    }
+  ],
+  "phone_numbers": {
+    "emergency": "082 911",
+    "appointmed": "0860 555 565",
+    "customer_service": "0860 638 2273",
+    "hospital_accounts": "010 205 7335"
+  }
+}

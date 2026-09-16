@@ -1,0 +1,63 @@
+{
+  "appointment_flow": {
+    "steps": [
+      {
+        "id": "start",
+        "message": "What would you like help with?",
+        "quick_replies": [
+          {"label": "Specialist", "value": "specialist"},
+          {"label": "GP", "value": "gp"},
+          {"label": "Dentist", "value": "dentist"}
+        ],
+        "next": {"specialist": "details", "gp": "details", "dentist": "details"}
+      },
+      {
+        "id": "details",
+        "message": "Netcare appointmed can help find an appropriate healthcare professional based on your requirements and, where relevant, your medical-aid network. You can now request the appointment online, in the Netcare app or by calling 0860 555 565.",
+        "quick_replies": [
+          {"label": "Request online", "value": "online"},
+          {"label": "Call appointmed", "value": "call"}
+        ],
+        "next": {"online": "done", "call": "done"}
+      },
+      {
+        "id": "done",
+        "message": "You’re ready for the next step. I’ll take you to the official Netcare appointmed service rather than asking you to search the website yourself.",
+        "quick_replies": [],
+        "next": {}
+      }
+    ]
+  },
+  "contact_flow": {
+    "steps": [
+      {
+        "id": "start",
+        "message": "Which kind of help do you need?",
+        "quick_replies": [
+          {"label": "General Netcare", "value": "general"},
+          {"label": "Hospital account", "value": "account"},
+          {"label": "Netcare 911", "value": "emergency"}
+        ],
+        "next": {"general": "general", "account": "account", "emergency": "emergency"}
+      },
+      {
+        "id": "general",
+        "message": "General Netcare customer service is 0860 638 2273, Monday to Friday, 08:00 to 16:00.",
+        "quick_replies": [],
+        "next": {}
+      },
+      {
+        "id": "account",
+        "message": "Hospital account queries are handled on 010 205 7335, Monday to Friday, 08:00 to 17:00. You can also SMS your ID number, patient name and hospital to 43235 for a callback.",
+        "quick_replies": [],
+        "next": {}
+      },
+      {
+        "id": "emergency",
+        "message": "Netcare 911 provides 24-hour emergency medical services. In an emergency, get emergency medical help immediately.",
+        "quick_replies": [],
+        "next": {}
+      }
+    ]
+  }
+}

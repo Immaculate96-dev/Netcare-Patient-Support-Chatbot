@@ -1,0 +1,64 @@
+{
+  "faqs": [
+    {
+      "id": "book-appointment",
+      "question": "How do I book a Netcare appointment?",
+      "answer": "Netcare appointmed can arrange appointments for you. You can request an appointment online, through the Netcare app or by phone on 0860 555 565. The appointmed service is available Monday to Friday from 08:00 to 19:00.",
+      "links": [{"label": "Request an appointment", "url": "https://www.netcare.co.za/netcare-appointmed/appointmed-form"}]
+    },
+    {
+      "id": "appointmed-cost",
+      "question": "Does Netcare appointmed cost anything?",
+      "answer": "Netcare says the appointmed booking service is free. The healthcare service or appointment itself may still have costs depending on your practitioner, medical aid and circumstances.",
+      "links": [{"label": "Netcare appointmed", "url": "https://www.netcare.co.za/netcare-appointmed"}]
+    },
+    {
+      "id": "mynetcare",
+      "question": "What is MyNetcare Online?",
+      "answer": "MyNetcare Online is a private and secure dashboard for managing your personal information, appointments, linked dependants and online pre-admissions.",
+      "links": [{"label": "Open MyNetcare Online", "url": "https://www.netcare.co.za/MyNetcare-Online"}]
+    },
+    {
+      "id": "pre-admission",
+      "question": "How do I complete pre-admission?",
+      "answer": "Netcare recommends completing the pre-admission documentation online before your admission date. You can use MyNetcare Online, or complete the required documentation at the hospital reception desk.",
+      "links": [{"label": "Pre-admission information", "url": "https://www.netcare.co.za/netcare-hospitals/patient-information/hospital-pre-admission"}]
+    },
+    {
+      "id": "emergency",
+      "question": "What should I do in an emergency?",
+      "answer": "If this is a medical emergency, do not wait for this chatbot. Get emergency medical help immediately. Netcare 911 operates 24/7.",
+      "links": [{"label": "Netcare 911", "url": "https://www.netcare.co.za/netcare-911"}]
+    },
+    {
+      "id": "contact",
+      "question": "How do I contact Netcare?",
+      "answer": "For general Netcare customer service, call 0860 638 2273. The customer service centre operates Monday to Friday from 08:00 to 16:00.",
+      "links": [{"label": "Netcare contact page", "url": "https://www.netcare.co.za/Contact-us"}]
+    },
+    {
+      "id": "hospital-accounts",
+      "question": "Who do I contact about a hospital account?",
+      "answer": "For hospital account queries, Netcare lists 010 205 7335 and [email protected]. The account team operates Monday to Friday from 08:00 to 17:00. You can also SMS your ID number, patient name and hospital to 43235 for a callback.",
+      "links": [{"label": "Netcare contact page", "url": "https://www.netcare.co.za/Contact-us"}]
+    },
+    {
+      "id": "medical-advice",
+      "question": "Can this chatbot tell me what illness I have?",
+      "answer": "No. I can help you navigate Netcare services and find the right place to get care, but I should not diagnose a condition or replace a doctor. For a medical concern, please contact a qualified healthcare professional.",
+      "links": [{"label": "Find Netcare services", "url": "https://www.netcare.co.za/netcare-hospitals"}]
+    },
+    {
+      "id": "specialist",
+      "question": "How do I find a specialist?",
+      "answer": "If you need help finding a specialist, Netcare appointmed can help identify healthcare professionals that fit your requirements and can work with your medical-aid network where applicable.",
+      "links": [{"label": "Request an appointment", "url": "https://www.netcare.co.za/netcare-appointmed/appointmed-form"}]
+    },
+    {
+      "id": "weather",
+      "question": "What is the weather today?",
+      "answer": "I’m a Netcare service-navigation chatbot and I do not have a live weather feed. I won’t guess the weather. Please use a trusted weather service for the current forecast.",
+      "links": []
+    }
+  ]
+}
