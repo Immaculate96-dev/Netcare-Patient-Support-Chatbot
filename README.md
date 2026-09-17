@@ -1,5 +1,7 @@
 # 🏥 Netcare Help Assistant
 
+http://172.20.6.122:5000
+
 > **A deterministic, rule-based chatbot for navigating Netcare services, facilities and online resources.**
 
 Built with **Flask, vanilla JavaScript, CSS and JSON**, the Netcare Help Assistant provides a simple, accessible way to find Netcare information without pretending to be a medical decision-maker.
