@@ -1,6 +1,6 @@
 # 🏥 Netcare Help Assistant
 
- http://172.20.6.122:5000
+ https://netcare-patient-support-chatbot-38b1.onrender.com
 
 > **A deterministic, rule-based chatbot for navigating Netcare services, facilities and online resources.**
 
